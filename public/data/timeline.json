@@ -1,7 +1,15 @@
 {
   "title": {
     "text": {
-      "headline": "Timeline of Buddhism in Sri Lanka"
+      "headline": "Timeline of Buddhism in Lanka",
+      "text": "Important events in the life of Buddhism on the island of Lanka, today known as Sri Lanka"
+    },
+    "media": {
+      "url": "data/images/Bandarawela.jpg",
+      "thumbnail": "data/images/Bandarawela.jpg"
+    },
+    "background": {
+      "color": "#bd1802"
     }
   },
   "events": [
@@ -73,7 +81,7 @@
       "display_date": "19 June 1698 – 18 July 1778",
       "text": {
         "headline": "Life of Weliwita Sri Saranankara Thero",
-        "text": "Weliwita Sri Saranankara Thero (19 June 1698 – 18 July 1778) was a Buddhist monk, who was the last Sangharaja of Sri Lanka.[1] He was the pioneer in the revivalin srilanka of Buddhism in Sri Lanka, after the decline of the religion in the 17th and 18th centuries.[2][3] Saranankara Thero was bestowed with the a title by king Kirthi Sri Rajasinghe in 1753, the same year he received the Upasampada (higher ordination of Buddhist monks) and re-established the Upasampada in Sri Lanka with the help of Mahasangha in Siam.[3] He is also credited with the establishment of Silvath Samagama (pious group), a union of monks who lived in accordance with the Buddhist monastic discipline.[4] (<a href=\"https://en.wikipedia.org/wiki/Weliwita_Sri_Saranankara_Thero\">Wikipedia</a>)"
+        "text": "Weliwita Sri Saranankara Thero (19 June 1698 – 18 July 1778) was a Buddhist monk, was the last Sangharaja of Sri Lanka. He was the pioneer in the revival of Buddhism in Sri Lanka, after the decline of the religion in the 17th and 18th centuries. Saranankara Thero was bestowed with the a title by king Kirthi Sri Rajasinghe in 1753, the same year he received the Upasampada (higher ordination of Buddhist monks) and re-established the Upasampada in Sri Lanka with the help of Mahasangha in Siam. He is also credited with the establishment of Silvath Samagama (pious group), a union of monks who lived in accordance with the Buddhist monastic discipline. (<a href=\"https://en.wikipedia.org/wiki/Weliwita_Sri_Saranankara_Thero\">Wikipedia</a>)"
       },
       "media": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Weliwita_Sri_Saranankara_thera.jpg",
