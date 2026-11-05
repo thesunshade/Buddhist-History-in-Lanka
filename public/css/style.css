@@ -1,0 +1,62 @@
+/* ==========================================================================
+   Buddhist History in Lanka — custom styles
+   TimelineJS3 CSS is loaded separately from jsDelivr CDN (see index.html).
+   ========================================================================== */
+
+/* Design tokens
+   -------------------------------------------------------------------------- */
+:root {
+  --tl-default-bg: 255, 255, 255; /* TimelineJS default_bg_color (R, G, B) */
+}
+
+/* Reset & base
+   -------------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Georgia", serif;
+  background: white;
+  color: #f0e6d3;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+/* Page header
+   -------------------------------------------------------------------------- */
+/* header {
+  padding: 1.5rem 2rem 1rem;
+  background: linear-gradient(135deg, #0d1b2a 0%, #1a3a5c 100%);
+  border-bottom: 2px solid #c9a84c;
+  text-align: center;
+} */
+
+header h1 {
+  font-size: clamp(1.4rem, 4vw, 2.4rem);
+  color: #f7d87c;
+  letter-spacing: 0.03em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+header p.subtitle {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  color: #b0c4de;
+  font-style: italic;
+}
+
+/* Timeline embed container
+   -------------------------------------------------------------------------- */
+#timeline-embed {
+  flex: 1;
+  width: 100%;
+  /* Fill the remaining viewport height */
+  height: calc(100dvh - 90px);
+  min-height: 500px;
+}

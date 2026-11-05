@@ -1,0 +1,43 @@
+# Netlify configuration for Buddhist History in Lanka — TimelineJS3
+# Publish directory: public/
+
+[build]
+  # The folder Netlify will publish (must contain index.html).
+  publish = "public"
+
+  # No build command needed — the site is static HTML + JSON.
+  # If you later add a build step (e.g. to regenerate the JSON from the CSV),
+  # uncomment and edit the lines below:
+  # command = "python scripts/csv_to_timeline_json.py"
+
+# ---------------------------------------------------------------------------
+# Headers: improve security and caching
+# ---------------------------------------------------------------------------
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
+
+[[headers]]
+  # Cache the timeline JSON for 1 hour (3600 s); stale-while-revalidate for 1 day.
+  for = "/data/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
+
+[[headers]]
+  # Aggressive caching for TimelineJS3 assets served from Netlify (if ever
+  # copied locally into /timeline3/).
+  for = "/timeline3/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ---------------------------------------------------------------------------
+# Redirects: pretty 404 fallback
+# ---------------------------------------------------------------------------
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
