@@ -19,13 +19,46 @@
       },
       "text": {
         "headline": "Arrival of Prince Vijaya",
-        "text": "Sinhalese history traditionally starts in 543 BC with the arrival of Prince Vijaya, a semi-legendary prince who sailed with 700 followers to the island, after being expelled from the Vanga Kingdom, in present-day Bengal. Prince Vijaya thereafter established the Sinhala Kingdom ushering in the historical period of Sri Lanka."
+        "text": "Prince Vijaya (Sinhala:විජය) (c. 543–505 BCE) was a legendary king of Tambapanni, based in modern day Sri Lanka. His reign was first mentioned in Mahāvaṃsa. He is said to have came to Sri Lanka with seven hundred followers after being banished from Sinhapura. —<a href='https://en.wikipedia.org/wiki/Prince_Vijaya'>Wikipedia</a>"
       },
       "media": {
         "url": "data/images/960px-Consecration_Of_King_Sinhala-Prince_Vijaya_(Detail_From_The_Ajanta_Mural_Of_Cave_No_17).jpg",
         "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Consecration_Of_King_Sinhala-Prince_Vijaya_(Detail_From_The_Ajanta_Mural_Of_Cave_No_17).jpg\">Photo Dharma from Sadao, Thailand</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
         "caption": "Consecration Of King Sinhala-Prince Vijaya (Detail From The Ajanta Mural Of Cave No 17) ",
         "thumbnail": "data/images/960px-Consecration_Of_King_Sinhala-Prince_Vijaya_(Detail_From_The_Ajanta_Mural_Of_Cave_No_17).jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": -437
+      },
+      "end_date": {
+        "year": 1017
+      },
+      "text": {
+        "headline": "Anuradhapura kingdom",
+        "text": "The Kingdom of Anuradhapura (Sinhala: අනුරාධපුර රාජධානිය, translit: Anurādhapura Rājadhāniya, named for its capital city, was the second established Sinhalese kingdom of ancient Sri Lanka. According to the Mahāvaṃsa, it was founded by King Pandukabhaya in 437 BC, whose authority extended throughout the country."
+      },
+      "media": {
+        "url": "data/images/960px-Subdivisions_of_Kingdom_of_Anuradhapura.png",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Subdivisions_of_Kingdom_of_Anuradhapura.png\">Nishadhi</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+        "caption": "Subdivisions of Kingdom of Anuradhapura ",
+        "thumbnail": "data/images/960px-Subdivisions_of_Kingdom_of_Anuradhapura.png"
+      }
+    },
+    {
+      "start_date": {
+        "year": -246
+      },
+      "text": {
+        "headline": "Arahant Mahinda arrives in Lanka",
+        "text": "<p>Arahant Mahinda (Sinhala: මිහිඳු මහරහතන් වහන්සේ/mihin̆du maharahatan vahanse) (285 BCE – 204 BCE) was an Indian Buddhist monk who brought Buddhism to Sri Lanka.He was a Mauryan prince and the first-born son of Emperor Ashoka, and the older brother of Princess Sanghamitra.</p><p>Mahinda was sent as a Buddhist missionary to the Anuradhapura Kingdom in Sri Lanka. Mahinda attained arhatship and resided at Mihintale.</p>"
+      },
+      "media": {
+        "url": "data/images/1280px-Mihintale_Rock.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Mihintale_Rock.jpg\">Dennis Sylvester Hurd</a>, CC0, via Wikimedia Commons",
+        "caption": "Missaka Pawwa in Mihintale, where the Arahath Mahinda landed. This is also known as Aradhana Gala. ",
+        "thumbnail": "data/images/1280px-Mihintale_Rock.jpg"
       }
     },
     {
