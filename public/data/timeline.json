@@ -53,7 +53,7 @@
         "url": "data/images/960px-AMH-2634-NA_Map_of_Ceylon.jpg",
         "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:AMH-2634-NA_Map_of_Ceylon.jpg\">Nationaal Archief</a>, Public domain, via Wikimedia Commons",
         "caption": "Dutch Ceylon. Jean du Perron (land surveyor / mapmaker), Willem Jacob Graaf (patron)",
-        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/AMH-2634-NA_Map_of_Ceylon.jpg/387px-AMH-2634-NA_Map_of_Ceylon.jpg"
+        "thumbnail": "data/images/960px-AMH-2634-NA_Map_of_Ceylon.jpg"
       },
       "background": {
         "color": "#164566"
@@ -91,10 +91,10 @@
         "text": "<p>Weliwita Sri Saranankara Thero recieved high ordination by the deligation from Thailand on the Esala poya day in 1753 at the Malwatu Maha Viharaya. He was soon after appointed Sangharaja by king King <a href=\"https://en.wikipedia.org/wiki/Kirti_Sri_Rajasinha_of_Kandy\" title=\"Kirti Sri Rajasinha of Kandy\">Kirti Sri Rajasinha</a>. (<a href=\"https://en.wikipedia.org/wiki/Weliwita_Sri_Saranankara_Thero#Appointed_Sangaraja\">Wikipedia</a>)</p>"
       },
       "media": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/118_King_Rajasingha_makes_Ven_Saranankara_Sangharaja_%2819820173144%29.jpg/450px-118_King_Rajasingha_makes_Ven_Saranankara_Sangharaja_%2819820173144%29.jpg",
-        "credit": "Photo Dharma from Sadao, Thailand",
-        "caption": "<p><span style=\"background-color:#358484\">&nbsp;&nbsp;&nbsp;</span> Portuguese Ceylon (1597-1619)</p>",
-        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/118_King_Rajasingha_makes_Ven_Saranankara_Sangharaja_%2819820173144%29.jpg/450px-118_King_Rajasingha_makes_Ven_Saranankara_Sangharaja_%2819820173144%29.jpg"
+        "url": "data/images/960px-118_King_Rajasingha_makes_Ven_Saranankara_Sangharaja_(19820173144).jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:118_King_Rajasingha_makes_Ven_Saranankara_Sangharaja_(19820173144).jpg\">Photo Dharma from Sadao, Thailand</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
+        "caption": "King Kirti Sri Rajasinha appointed Weliwita Sri Saranankara Thera as the Sangharaja of Sri Lanka. ",
+        "thumbnail": "data/images/960px-118_King_Rajasingha_makes_Ven_Saranankara_Sangharaja_(19820173144).jpg"
       }
     },
     {
