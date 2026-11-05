@@ -9,10 +9,25 @@
       "thumbnail": "data/images/Bandarawela.jpg"
     },
     "background": {
-      "color": "#bd1802"
+      "color": "#700e01"
     }
   },
   "events": [
+    {
+      "start_date": {
+        "year": -543
+      },
+      "text": {
+        "headline": "Arrival of Prince Vijaya",
+        "text": "Sinhalese history traditionally starts in 543 BC with the arrival of Prince Vijaya, a semi-legendary prince who sailed with 700 followers to the island, after being expelled from the Vanga Kingdom, in present-day Bengal. Prince Vijaya thereafter established the Sinhala Kingdom ushering in the historical period of Sri Lanka."
+      },
+      "media": {
+        "url": "data/images/960px-Consecration_Of_King_Sinhala-Prince_Vijaya_(Detail_From_The_Ajanta_Mural_Of_Cave_No_17).jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Consecration_Of_King_Sinhala-Prince_Vijaya_(Detail_From_The_Ajanta_Mural_Of_Cave_No_17).jpg\">Photo Dharma from Sadao, Thailand</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
+        "caption": "Consecration Of King Sinhala-Prince Vijaya (Detail From The Ajanta Mural Of Cave No 17) ",
+        "thumbnail": "data/images/960px-Consecration_Of_King_Sinhala-Prince_Vijaya_(Detail_From_The_Ajanta_Mural_Of_Cave_No_17).jpg"
+      }
+    },
     {
       "start_date": {
         "year": 1517
@@ -44,6 +59,9 @@
         "url": "data/images/960px-Portuguese_Ceylon.svg.png",
         "credit": "Yixopeh377",
         "thumbnail": "data/images/960px-Portuguese_Ceylon.svg.png"
+      },
+      "background": {
+        "color": "#000000"
       }
     },
     {
@@ -64,7 +82,7 @@
         "thumbnail": "data/images/960px-AMH-2634-NA_Map_of_Ceylon.jpg"
       },
       "background": {
-        "color": "#164566"
+        "color": "#000000"
       }
     },
     {
@@ -107,12 +125,127 @@
     },
     {
       "start_date": {
+        "year": 1796
+      },
+      "end_date": {
+        "year": 1948
+      },
+      "text": {
+        "headline": "British Occupation",
+        "text": "British Ceylon refers to the imperial possessions of the United Kingdom in the island of Ceylon, present-day Sri Lanka, between 1796 and 4 February 1948. Initially, the area it covered did not include the Kingdom of Kandy, which was a protectorate, but from 1817 to 1948 the British possessions included the whole island. The British Ceylon period is the history of Sri Lanka between 1815 and 1948. "
+      },
+      "media": {
+        "url": "data/images/960px-Ceylon_(ca_1914).jpg",
+        "credit": "<p><a target=\"_blank\" rel=\"noopener\" href=\"https://commons.wikimedia.org/wiki/File:Ceylon_(ca_1914).jpg\">(Heinrich) Wagner &amp; (Ernst) Debes, Leipzig</a>, Public domain, via Wikimedia Commons</p>",
+        "caption": "Map of Ceylon, ca. 1914",
+        "thumbnail": "data/images/960px-Ceylon_(ca_1914).jpg"
+      },
+      "background": {
+        "color": "#000000"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1862
+      },
+      "text": {
+        "headline": "First Buddhist Press",
+        "text": "First Buddhist press, Lankopakara Press, established by Venerable Hikkaduwe Sri Sumangala Thera"
+      },
+      "media": {
+        "url": "data/images/Lankopakara_Press.jpg",
+        "credit": "The printing press in Galle, restored after a fire",
+        "thumbnail": "data/images/Lankopakara_Press.jpg"
+      }
+    },
+    {
+      "start_date": {
         "year": 1864
       },
       "display_date": "1864",
       "text": {
         "headline": "Founding of the Rāmañña Nikāya",
         "text": "<p>It was founded in 1864 when Ambagahawatte Saranankara,<sup><a href=\"https://en.wikipedia.org/wiki/R%C4%81ma%C3%B1%C3%B1a_Nik%C4%81ya#cite_note-2\">[2]</a></sup> returned to <a href=\"https://en.wikipedia.org/wiki/Sri_Lanka\" title=\"Sri Lanka\">Sri Lanka</a> after being ordained by the Neyyadhamma Munivara Sangharaja of Ratnapunna Vihara in <a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Burma\" title=\"Burma\">Burma</a>.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1864
+      },
+      "end_date": {
+        "year": 1933
+      },
+      "text": {
+        "headline": "Life of Anagārika Dharmapāla"
+      },
+      "media": {
+        "url": "data/images/960px-Srimath_Anagarika_Dharmapala_At_The_Age_Of_29_(1893).jpg",
+        "thumbnail": "data/images/960px-Srimath_Anagarika_Dharmapala_At_The_Age_Of_29_(1893).jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1948,
+        "month": 2,
+        "day": 4
+      },
+      "text": {
+        "headline": "Sri Lankan independence"
+      },
+      "media": {
+        "url": "data/images/SL_Independence.jpg",
+        "credit": "File:SL_Independence.jpg\">Government of Ceylon and UK.Cossde at en.wikipedia</a>, Public domain, via Wikimedia Commons</p>",
+        "caption": "The formal ceremony marking the start of self rule, with the opening of the first parliament at Independence Square by the HRH Prince Henry in the presence of Rt Hon D.S. Senanayake as first Prime Minister of Ceylon.",
+        "thumbnail": "data/images/SL_Independence.jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1978
+      },
+      "text": {
+        "headline": "Clause 9 of Chapter II",
+        "text": "<p>Clause 9 of Chapter II in the Constitution in Sri Lanka, established in 1978, states:</p><blockquote><p>The Republic of Sri Lanka shall give to Buddhism the foremost place and accordingly it shall be the duty of the State to protect and foster the Buddha Sasana, while assuring to all religions the rights granted by Article 10 and 14</p></blockquote><p></p>"
+      },
+      "media": {
+        "url": "data/images/960px-Page_1_1978_constitution_SL.jpg",
+        "thumbnail": "data/images/960px-Page_1_1978_constitution_SL.jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1983,
+        "month": 7,
+        "day": 23
+      },
+      "end_date": {
+        "year": 2009,
+        "month": 5,
+        "day": 18
+      },
+      "text": {
+        "headline": "Civil War",
+        "text": "A civil war was fought in Sri Lanka from 1983 to 2009. Beginning on 23 July 1983, it was an intermittent insurgency against the government by the Liberation Tigers of Tamil Eelam (LTTE, also known as the Tamil Tigers) led by Velupillai Prabhakaran. The LTTE fought to create an independent Tamil state called Tamil Eelam in the north-east of the island in response to continuous discrimination and violent persecution against Sri Lankan Tamils by the predominantly Sinhalese government of Sri Lanka. —<a href='https://en.wikipedia.org/wiki/Sri_Lankan_civil_war'>Wikipedia</a>"
+      },
+      "media": {
+        "url": "data/images/960px-Sri_Lanka_North_Eastern_Province_locator_map.svg.png",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Sri_Lanka_North_Eastern_Province_locator_map.svg\">User:Jeroen</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons",
+        "caption": "North Eastern Province of Sri Lanka, 1988 - 2006. The Tamil majority region largely controlled by opposition militant groups during the Sri Lankan Civil War ",
+        "thumbnail": "data/images/960px-Sri_Lanka_North_Eastern_Province_locator_map.svg.png"
+      }
+    },
+    {
+      "start_date": {
+        "year": 2004,
+        "month": 2
+      },
+      "text": {
+        "headline": "Jathika Hela Urumaya (ජාතික හෙළ උරුමය) party formation ",
+        "text": "<p>The <strong>Jathika Hela Urumaya</strong> (<strong>JHU</strong>), less commonly known by its English name the <strong>National Heritage Party</strong>, is a Sinhala Buddhist nationalist political party in Sri Lanka. The JHU was launched in February 2004 by the lay-based, Sinhalese nationalist political party Sihala Urumaya.</p><p>The Jathika Hela Urumaya contested its first parliamentary election in 2004. All of its candidates were Buddhist monks. At the election, the party won 5.97% of the popular vote (a total of 552,724 votes) and 9 out of 225 seats, making it the fourth largest party in parliament.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://en.wikipedia.org/wiki/Jathika_Hela_Urumaya\">Wikipedia</a></p>"
+      },
+      "media": {
+        "url": "data/images/JHU_logo_2018.jpg",
+        "thumbnail": "data/images/JHU_logo_2018.jpg"
       }
     },
     {
