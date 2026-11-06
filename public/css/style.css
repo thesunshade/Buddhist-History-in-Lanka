@@ -6,7 +6,8 @@
 /* Design tokens
    -------------------------------------------------------------------------- */
 :root {
-  --tl-default-bg: 255, 255, 255; /* TimelineJS default_bg_color (R, G, B) */
+  --tl-default-bg: 255, 255, 255;
+  /* TimelineJS default_bg_color (R, G, B) */
 }
 
 /* Reset & base
@@ -59,4 +60,24 @@ header p.subtitle {
   /* Fill the remaining viewport height */
   height: calc(100dvh - 90px);
   min-height: 500px;
+}
+
+/* Fix: our box-sizing:border-box reset conflicts with TimelineJS's JavaScript
+   layout math. TimelineJS calculates width = container - (padding * 2) and
+   then sets BOTH the width AND padding via inline styles, assuming content-box
+   behaviour. With border-box, the padding is counted inside the declared width,
+   shrinking the slide content by 2 × slide_padding_lr (80 px by default) and
+   leaving a gap on the right. Restoring content-box on the affected elements
+   makes the browser match TimelineJS's expectations.
+   -------------------------------------------------------------------------- */
+.tl-slide-content,
+.tl-slide-content-container {
+  box-sizing: content-box;
+}
+
+/* fix mobile sizing bug */
+
+.tl-slide-content,
+.tl-slide-content-container {
+  box-sizing: content-box;
 }
