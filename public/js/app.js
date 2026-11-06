@@ -25,24 +25,24 @@
    * comma-separated "R, G, B" string into the object TimelineJS3 expects.
    */
   function getBgColorFromCSS() {
-    var raw = getComputedStyle(document.documentElement)
-      .getPropertyValue("--tl-default-bg").trim();  // e.g. "255, 255, 255"
-    var parts = raw.split(",").map(function (n) { return parseInt(n, 10); });
+    var raw = getComputedStyle(document.documentElement).getPropertyValue("--tl-default-bg").trim(); // e.g. "255, 255, 255"
+    var parts = raw.split(",").map(function (n) {
+      return parseInt(n, 10);
+    });
     return { r: parts[0], g: parts[1], b: parts[2] };
   }
 
   /** TimelineJS3 configuration options */
   var options = {
-    timenav_position: "bottom",
+    hash_bookmark: true,
+    timenav_position: "top",
     initial_zoom: 2,
     language: "en",
-    default_bg_color: getBgColorFromCSS()   // colour is set in css/style.css --tl-default-bg
+    default_bg_color: getBgColorFromCSS(), // colour is set in css/style.css --tl-default-bg
   };
 
   window.addEventListener("DOMContentLoaded", function () {
     /* global TL */
     new TL.Timeline("timeline-embed", DATA_URL, options);
   });
-
-}());
-
+})();
