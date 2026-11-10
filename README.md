@@ -18,7 +18,8 @@ Buddhist-History-in-Lanka/
 │       └── timeline.json            ← Generated from CSV (only file the script touches)
 ├── scripts/
 │   └── csv_to_timeline_json.py      ← Converts CSV → timeline.json (data only)
-├── BuddhismLanka.csv     ← Source data spreadsheet
+├── BuddhismLanka.csv                ← Source data spreadsheet
+├── colors.yaml                      ← Custom color variables for slide backgrounds
 ├── netlify.toml                     ← Netlify build & header config
 └── README.md
 ```
@@ -56,7 +57,22 @@ Then commit and push — Netlify will automatically redeploy.
 | `Media Thumbnail` | Small thumbnail for the navigation bar |
 | `Type` | Set to `title` for the opening title slide |
 | `Group` | Groups events onto parallel rows |
-| `Background` | Hex colour (`#rrggbb`) or image URL for the slide background |
+| `Background` | Color variable (from `colors.yaml`), hex colour (`#rrggbb`), CSS color, or image URL |
+
+### Background Colors & Variables
+
+You can define reusable color variables in [`colors.yaml`](colors.yaml):
+
+```yaml
+monk: "#ef8215"
+layman: "#358484"
+era: "#000000"
+title: "#700e01"
+```
+
+In `BuddhismLanka.csv`, you can reference any variable name directly in the `Background` column (e.g. `monk`). When `scripts/csv_to_timeline_json.py` runs, it will substitute the variable with its hex value.
+
+Any standard color (e.g. `#700e01`, `rgb(...)`, `hsl(...)`, or CSS color names) or image URLs placed in the `Background` column will also be processed as normal.
 
 ---
 

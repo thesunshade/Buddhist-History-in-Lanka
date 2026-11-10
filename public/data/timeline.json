@@ -44,6 +44,32 @@
         "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Subdivisions_of_Kingdom_of_Anuradhapura.png\">Nishadhi</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
         "caption": "Subdivisions of Kingdom of Anuradhapura ",
         "thumbnail": "data/images/960px-Subdivisions_of_Kingdom_of_Anuradhapura.png"
+      },
+      "group": "era",
+      "background": {
+        "color": "#5b1212"
+      }
+    },
+    {
+      "start_date": {
+        "year": -307
+      },
+      "end_date": {
+        "year": -267
+      },
+      "text": {
+        "headline": "Reign of King Devanampiya Tissa",
+        "text": "Devanampiya Tissa (දේවානම්පිය තිස්ස, lit. 'Loved by Gods') was one of the earliest kings of Sri Lanka based at the ancient capital of Anuradhapura. His reign was notable for the arrival of Buddhism in Sri Lanka. The primary source for his reign is the Mahavamsa, which in turn is based on the more ancient Dipavamsa."
+      },
+      "media": {
+        "url": "data/images/1280px-The_Sinhalese_Royal_Family_of_King_Devanampiya_Tissa_and_Prince_Uththiya.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:The_Sinhalese_Royal_Family_of_King_Devanampiya_Tissa_and_Prince_Uththiya.JPG\">MediaJet (A Photograph of a Very old Lithographic Painting drawn by D.M.A.Wijewardana,captured by me sometime in 2009)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+        "caption": "A painting of Sinhalese Royal Family of King Devanampiya Tissa and Prince Uththiya",
+        "thumbnail": "data/images/1280px-The_Sinhalese_Royal_Family_of_King_Devanampiya_Tissa_and_Prince_Uththiya.jpg"
+      },
+      "group": "era",
+      "background": {
+        "color": "#5b1212"
       }
     },
     {
@@ -59,6 +85,82 @@
         "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Mihintale_Rock.jpg\">Dennis Sylvester Hurd</a>, CC0, via Wikimedia Commons",
         "caption": "Missaka Pawwa in Mihintale, where the Arahath Mahinda landed. This is also known as Aradhana Gala. ",
         "thumbnail": "data/images/1280px-Mihintale_Rock.jpg"
+      },
+      "background": {
+        "color": "#a2580e"
+      }
+    },
+    {
+      "start_date": {
+        "year": -140
+      },
+      "text": {
+        "headline": "Initial construction of Ruwanweli Maha Seya",
+        "text": "Ruwanweli Maha Seya was built by Sinhalese King Dutugemunu in c. 140 B.C. It goes by many names including  Maha Thupa (lit. 'the Great Thupa'), Swarnamali Seya, Svaṇṇamāli Mahaceti (in Pali) and Rathnamali Seya. The stupa is one of the world's tallest ancient monuments, standing at 103 m (338 ft) and with a circumference of 290 m (951 ft). The original stupa had been about 55 m (180 ft) in height and was renovated by many kings. "
+      },
+      "media": {
+        "url": "data/images/Sri_Lanka_-_Anuradhapura.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Sri_Lanka_-_Anuradhapura.JPG\">BluesyPete</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+        "caption": "Ruwanweli Maha Seya as it appears today. Located in Anuradhapura.",
+        "thumbnail": "data/images/Sri_Lanka_-_Anuradhapura.jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1056
+      },
+      "end_date": {
+        "year": 1232
+      },
+      "text": {
+        "headline": "Polonnaruwa period",
+        "text": "The Kingdom of Polonnaruwa was the second major Sinhalese kingdom of Sri Lanka. It lasted from 1055 under Vijayabahu I to 1212 under the rule of Lilavati. The Kingdom of Polonnaruwa came into being after the Anuradhapura Kingdom was invaded by Chola forces under Rajaraja I and led to formation of the Kingdom of Ruhuna, where the Sinhalese Kings ruled during Chola occupation."
+      },
+      "media": {
+        "url": "data/images/960px-Polonnaruwa,_Different_buddhas_(23832442773).jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Polonnaruwa,_Different_buddhas_(23832442773).jpg\">Scott Edmunds</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
+        "caption": "Stone statues in the Gal Vihara",
+        "thumbnail": "data/images/960px-Polonnaruwa,_Different_buddhas_(23832442773).jpg"
+      },
+      "group": "era",
+      "background": {
+        "color": "#5b1212"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1215
+      },
+      "end_date": {
+        "year": 1619
+      },
+      "text": {
+        "headline": "Jaffna Kingdom"
+      },
+      "group": "era",
+      "background": {
+        "color": "#5b1212"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1412
+      },
+      "end_date": {
+        "year": 1597
+      },
+      "text": {
+        "headline": "Kingdom of Koṭṭe",
+        "text": "The Kingdom of Kotte (Sinhala: කෝට්ටේ රාජධානිය,), named after its capital, Kotte, was a Sinhalese kingdom that flourished in Sri Lanka during the 15th century. The Kotte Kingdom was largely dissolved during the Sinhalese-Portuguese War, as it faced attacks from rival Sinhalese kingdoms, the Kingdom of Sitawaka and Kingdom of Kandy."
+      },
+      "media": {
+        "url": "data/images/960px-Flag_of_Kotte.svg.png",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Flag_of_Kotte.svg\">Blackknight12</a>, Public domain, via Wikimedia Commons",
+        "thumbnail": "data/images/960px-Flag_of_Kotte.svg.png"
+      },
+      "group": "era",
+      "background": {
+        "color": "#5b1212"
       }
     },
     {
@@ -86,13 +188,14 @@
       },
       "text": {
         "headline": "Portuguese Occupation\n",
-        "text": "<p><strong>Portuguese Ceylon</strong> (Portuguese: <em>Ceil&atilde;o Portugu&ecirc;s</em>, Sinhala: පෘතුගීසි ලංකාව <em>Puruthugisi Lankawa</em>, Tamil: போர்த்துக்கேய இலங்கை <em>Porthukeya Ilankai</em>) is the name given to the territory on Ceylon, modern-day Sri-Lanka, controlled by the Portuguese Empire between 1597 and 1658. (<a href=\"https://en.wikipedia.org/wiki/Portuguese_Ceylon\">Wikipedia</a>)</p><p>Map Key:<br><span style=\"background-color:#358484\">&nbsp;&nbsp;&nbsp;</span> Portuguese Ceylon (1597-1619)<br><span style=\"background-color:#17ccc7\">&nbsp;&nbsp;&nbsp;</span> Jaffna Kingdom and area annexed Kingdom of Sitawaka in 1594-1619</p>"
+        "text": "<p><strong>Portuguese Ceylon</strong> (Portuguese: <em>Ceil&atilde;o Portugu&ecirc;s</em>, Sinhala: පෘතුගීසි ලංකාව <em>Puruthugisi Lankawa</em>, Tamil: போர்த்துக்கேய இலங்கை <em>Porthukeya Ilankai</em>) is the name given to the territory on Ceylon, modern-day Sri-Lanka, controlled by the Portuguese Empire between 1597 and 1658. (<a href=\"https://en.wikipedia.org/wiki/Portuguese_Ceylon\">Wikipedia</a>) Unlike the later Dutch and British occupation, the Portugues used overt violence to try to crush local religious practices by destroying places of worship.</p><p>Map Key:<br><span style=\"background-color:#358484\">&nbsp;&nbsp;&nbsp;</span> Portuguese Ceylon (1597-1619)<br><span style=\"background-color:#17ccc7\">&nbsp;&nbsp;&nbsp;</span> Jaffna Kingdom and area annexed Kingdom of Sitawaka in 1594-1619</p>"
       },
       "media": {
         "url": "data/images/960px-Portuguese_Ceylon.svg.png",
         "credit": "Yixopeh377",
         "thumbnail": "data/images/960px-Portuguese_Ceylon.svg.png"
       },
+      "group": "era",
       "background": {
         "color": "#000000"
       }
@@ -114,6 +217,7 @@
         "caption": "Dutch Ceylon. Jean du Perron (land surveyor / mapmaker), Willem Jacob Graaf (patron)",
         "thumbnail": "data/images/960px-AMH-2634-NA_Map_of_Ceylon.jpg"
       },
+      "group": "era",
       "background": {
         "color": "#000000"
       }
@@ -132,11 +236,38 @@
       "display_date": "19 June 1698 – 18 July 1778",
       "text": {
         "headline": "Life of Weliwita Sri Saranankara Thero",
-        "text": "Weliwita Sri Saranankara Thero (19 June 1698 – 18 July 1778) was a Buddhist monk, was the last Sangharaja of Sri Lanka. He was the pioneer in the revival of Buddhism in Sri Lanka, after the decline of the religion in the 17th and 18th centuries. Saranankara Thero was bestowed with the a title by king Kirthi Sri Rajasinghe in 1753, the same year he received the Upasampada (higher ordination of Buddhist monks) and re-established the Upasampada in Sri Lanka with the help of Mahasangha in Siam. He is also credited with the establishment of Silvath Samagama (pious group), a union of monks who lived in accordance with the Buddhist monastic discipline. (<a href=\"https://en.wikipedia.org/wiki/Weliwita_Sri_Saranankara_Thero\">Wikipedia</a>)"
+        "text": "Weliwita Sri Saranankara Thero (19 June 1698 – 18 July 1778) was the last Sangharaja of Sri Lanka. He was the pioneer in the revival of Buddhism in Sri Lanka, after the decline of the religion in the 17th and 18th centuries. Saranankara Thero was bestowed with the a title by king Kirthi Sri Rajasinghe in 1753, the same year he received the Upasampada (higher ordination of Buddhist monks) and re-established the Upasampada in Sri Lanka with the help of Mahasangha in Siam. He is also credited with the establishment of Silvath Samagama (pious group), a union of monks who lived in accordance with the Buddhist monastic discipline. (<a href=\"https://en.wikipedia.org/wiki/Weliwita_Sri_Saranankara_Thero\">Wikipedia</a>)"
       },
       "media": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Weliwita_Sri_Saranankara_thera.jpg",
         "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/41/Weliwita_Sri_Saranankara_thera.jpg"
+      },
+      "background": {
+        "color": "#a2580e"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1734
+      },
+      "text": {
+        "headline": "First Printing Press",
+        "text": "In 1734, the Dutch Government established the first printing press in Sri Lanka, primarily to serve the needs of both missionaries and administrators. The first <i>Buddhist controlled printing press</i> did not come to the island for another 128 years."
+      }
+    },
+    {
+      "start_date": {
+        "year": 1737
+      },
+      "text": {
+        "headline": "First Sinhala Moveable Type Produced",
+        "text": "<p>In 1737, an armorer named Gabriel Baas forged the first Sinhala moveable type. Because the presses were controlled by the occupying force, this technology would only be used for government and Christian religious publications for many decades.</p><p>Read more: <a href='https://ceylonhistory.com/en/stories/sinhalese-printing-press/'>The Revolutionary Sinhalese Press: How Print Technology Transformed a Nation</a>"
+      },
+      "media": {
+        "url": "data/images/New-Testiment-1817.png",
+        "credit": "<a href='https://archive.org/details/singhalesetransl00brow'>Archive.org</a>",
+        "caption": "<i>The Singhalese translation of the New Testament of our Lord and Saviour Jesus Christ</i> by William Tolfrey, 1817, Wesleyan Mission Press.",
+        "thumbnail": "data/images/New-Testiment-1817.png"
       }
     },
     {
@@ -154,6 +285,9 @@
         "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:118_King_Rajasingha_makes_Ven_Saranankara_Sangharaja_(19820173144).jpg\">Photo Dharma from Sadao, Thailand</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
         "caption": "King Kirti Sri Rajasinha appointed Weliwita Sri Saranankara Thera as the Sangharaja of Sri Lanka. ",
         "thumbnail": "data/images/960px-118_King_Rajasingha_makes_Ven_Saranankara_Sangharaja_(19820173144).jpg"
+      },
+      "background": {
+        "color": "#a2580e"
       }
     },
     {
@@ -169,12 +303,59 @@
       },
       "media": {
         "url": "data/images/960px-Ceylon_(ca_1914).jpg",
-        "credit": "<p><a target=\"_blank\" rel=\"noopener\" href=\"https://commons.wikimedia.org/wiki/File:Ceylon_(ca_1914).jpg\">(Heinrich) Wagner &amp; (Ernst) Debes, Leipzig</a>, Public domain, via Wikimedia Commons</p>",
+        "credit": "<a target=\"_blank\" rel=\"noopener\" href=\"https://commons.wikimedia.org/wiki/File:Ceylon_(ca_1914).jpg\">(Heinrich) Wagner &amp; (Ernst) Debes, Leipzig</a>, Public domain, via Wikimedia Commons</p>",
         "caption": "Map of Ceylon, ca. 1914",
         "thumbnail": "data/images/960px-Ceylon_(ca_1914).jpg"
       },
+      "group": "era",
       "background": {
         "color": "#000000"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1823,
+        "month": 2,
+        "day": 9
+      },
+      "end_date": {
+        "year": 1890,
+        "month": 9,
+        "day": 21
+      },
+      "text": {
+        "headline": "Ven. Migettuwatte Gunananda Thera (පූජ්‍ය මිගෙට්ටුවත්තේ ගුණානන්ද හිමි)",
+        "text": "Ven. Migettuwatte Gunananda Thera, or Mohottiwatte Gunananda Thera, is known for leading the Buddhist side in debates between Buddhists and Christians in Baddegama, Udanwita, Waragoda, Liyanagemulla, Gampola, and Panadura, where the most famous of the debates took place. As a result of the debates, Buddhism in Sri Lanka saw a revival. (<a href='https://en.wikipedia.org/wiki/Migettuwatte_Gunananda_Thera'>Wikipedia</a>)"
+      },
+      "media": {
+        "url": "data/images/960px-Venerable_Migettuwatte_Gunananda_Thera_(1823-1890).jpg",
+        "thumbnail": "data/images/960px-Venerable_Migettuwatte_Gunananda_Thera_(1823-1890).jpg"
+      },
+      "background": {
+        "color": "#a2580e"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1827,
+        "month": 1,
+        "day": 20
+      },
+      "end_date": {
+        "year": 1911,
+        "month": 4,
+        "day": 29
+      },
+      "text": {
+        "headline": "Hikkaduwe Sri Sumangala Thera (හික්කඩුවේ ශ්‍රි සුමංගල නාහිමි)",
+        "text": "Hikkaduwe Sri Sumangala Thera was one of the pioneers of the Sri Lankan Buddhist revivalist movement in the 19th century. He was the founder of Vidyodaya Pirivena, Maligakanda, in 1873, which was granted the university status later in 1959 by the Government of Sri Lanka. A veteran author and a fiery orator, he was a major figure in the Panadurawadaya, a religious debate held between Christian missionaries and Buddhist monks in 1873 at Panadura, Sri Lanka. (<a href='https://en.wikipedia.org/wiki/Hikkaduwe_Sri_Sumangala_Thera'>Wikipedia</a>)"
+      },
+      "media": {
+        "url": "data/images/Most_Venerable_Hikkaduwe_Sri_Sumangala_Thera_(1827-1911).jpg",
+        "thumbnail": "data/images/Most_Venerable_Hikkaduwe_Sri_Sumangala_Thera_(1827-1911).jpg"
+      },
+      "background": {
+        "color": "#a2580e"
       }
     },
     {
@@ -187,8 +368,11 @@
       },
       "media": {
         "url": "data/images/Lankopakara_Press.jpg",
-        "credit": "The printing press in Galle, restored after a fire",
+        "caption": "The printing press in Galle, restored after a fire",
         "thumbnail": "data/images/Lankopakara_Press.jpg"
+      },
+      "background": {
+        "color": "#004c7f"
       }
     },
     {
@@ -199,6 +383,14 @@
       "text": {
         "headline": "Founding of the Rāmañña Nikāya",
         "text": "<p>It was founded in 1864 when Ambagahawatte Saranankara,<sup><a href=\"https://en.wikipedia.org/wiki/R%C4%81ma%C3%B1%C3%B1a_Nik%C4%81ya#cite_note-2\">[2]</a></sup> returned to <a href=\"https://en.wikipedia.org/wiki/Sri_Lanka\" title=\"Sri Lanka\">Sri Lanka</a> after being ordained by the Neyyadhamma Munivara Sangharaja of Ratnapunna Vihara in <a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Burma\" title=\"Burma\">Burma</a>.</p>"
+      },
+      "media": {
+        "url": "data/images/3840px-102_Ordination_of_Ramañña_Monks_in_Kelani_Water_Sima_(19822441193)-cr.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:102_Ordination_of_Rama%C3%B1%C3%B1a_Monks_in_Kelani_Water_Sima_(19822441193).jpg\">Photo Dharma from Sadao, Thailand</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
+        "thumbnail": "data/images/3840px-102_Ordination_of_Ramañña_Monks_in_Kelani_Water_Sima_(19822441193)-cr.jpg"
+      },
+      "background": {
+        "color": "#5f5f5f"
       }
     },
     {
@@ -211,9 +403,11 @@
       },
       "media": {
         "url": "data/images/Sri_Piyaratana_Tissa_Mahanayake_Thero.jpg",
-        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Sri_Piyaratana_Tissa_Mahanayake_Thero.jpg\">ShArk50008</a>, Public domain, via Wikimedia Commons",
         "caption": "Ven. Dodanduwa Piyaratana Thera, also known as Sri Piyaratana Tissa Mahanayake Thera ( දොඩන්දුවේ ශ්‍රි පියරත්න තිස්ස මහ නායක ස්වාමින් වහන්සේ  )",
         "thumbnail": "data/images/Sri_Piyaratana_Tissa_Mahanayake_Thero.jpg"
+      },
+      "background": {
+        "color": "#004c7f"
       }
     },
     {
@@ -229,6 +423,104 @@
       "media": {
         "url": "data/images/960px-Srimath_Anagarika_Dharmapala_At_The_Age_Of_29_(1893).jpg",
         "thumbnail": "data/images/960px-Srimath_Anagarika_Dharmapala_At_The_Age_Of_29_(1893).jpg"
+      },
+      "background": {
+        "color": "#358484"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1883,
+        "month": 3
+      },
+      "display_date": "March, 1883",
+      "text": {
+        "headline": "Koṭahēna Riots (කොටහේන කෝලහාලය)"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1885
+      },
+      "text": {
+        "headline": "Founding of Gangārāmaya Temple",
+        "text": "Founded by Ven. Hikkaduwe Sri Sumangala Nayaka Thera because of a lack of suitable large temple in the Colombo area. The land was bordered on two sides by the Moragoda Ela and the Pettigala Ela, on the bank of Beira Lake. "
+      },
+      "media": {
+        "url": "data/images/Gangaramaya_Temple-cr.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Gangaramaya_Temple.JPG\">AKS.9955</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+        "caption": "Entrance of Gangārāmaya Temple today.",
+        "thumbnail": "data/images/Gangaramaya_Temple-cr.jpg"
+      },
+      "background": {
+        "color": "#004c7f"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1887
+      },
+      "text": {
+        "headline": "Publication of <i>Buddha Ædahilla</i>",
+        "text": "Ven. Gunananda publishes the first printed liturgical book, Buddha Ædahilla, that gave lay people the guidance for performing Buddha Puja on their own. "
+      }
+    },
+    {
+      "start_date": {
+        "year": 1898,
+        "month": 2,
+        "day": 8
+      },
+      "text": {
+        "headline": "Founding of the Young Men's Buddhist Association",
+        "text": "The YMBA, or Young Men's Buddhist Association, was created in Sri Lanka in 1898. The main founder was C. S. Dissanayake as part of a bid to provide Buddhist institutions as an alternative to  the Young Men's Christian Association. Started in Colombo, branches were formed throughout the country. <a href='https://en.wikipedia.org/wiki/Young_Men%27s_Buddhist_Association'>Wikipedia</a>"
+      },
+      "media": {
+        "url": "data/images/YMBA-logo.png",
+        "thumbnail": "data/images/YMBA-logo.png"
+      },
+      "background": {
+        "color": "#5f5f5f"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1902
+      },
+      "text": {
+        "headline": "Ruwanweli Seya Restoration Society",
+        "text": "Ruwanweli Maha Seya was covered by wilderness as of the 19th century. After fund raising efforts by a bhikkhu, it was renovated in the early 20th century. The Ruwanweli Seya Restoration Society was set up in 1902. Most notably the philanthropist Hendrick Appuhamy donated Rs 20 million in 1912 (approximately 611 million USD adjusted for inflation in 2021) for restoration works."
+      },
+      "media": {
+        "url": "data/images/Ruwanwelisaya_in_1891.jpg",
+        "caption": "Ruwanweli Maha Seya in 1891",
+        "thumbnail": "data/images/Ruwanwelisaya_in_1891.jpg"
+      },
+      "background": {
+        "color": "#5f5f5f"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1905
+      },
+      "text": {
+        "headline": "Publication of Vandana books for school children",
+        "text": "Two liturgical books for school children—Buddhopastānaya (Attending to the Buddha), and Sri Saddharma Mañjarī (Blossoms of Sacred Dhamma)—are published in 1905. These books were used in schools to conduct Buddha vandana and teach about Buddhism."
+      },
+      "media": {
+        "url": "data/images/Sri_Lanka_Gamini_Vidyalaya_Buddha_State-cr.JPG",
+        "caption": "Buddha Shrine at Gamini Vidyalaya (a primary school in the upcountry)",
+        "thumbnail": "data/images/Sri_Lanka_Gamini_Vidyalaya_Buddha_State-cr.JPG"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1920
+      },
+      "text": {
+        "headline": "Education Ordinance of 1920",
+        "text": "The Education Ordinance of 1920 prohibited the teaching of religion in state schools. As state schools were the main resource for Buddhist students, this prompted protest from Buddhist leaders leading to an ammendment in 1927 permitting the teaching of religion to students who requested it."
       }
     },
     {
@@ -308,6 +600,9 @@
       "media": {
         "url": "data/images/JHU_logo_2018.jpg",
         "thumbnail": "data/images/JHU_logo_2018.jpg"
+      },
+      "background": {
+        "color": "#5f5f5f"
       }
     },
     {
@@ -322,6 +617,9 @@
         "url": "data/images/Bodu_Bala_Sena_symbol.png",
         "caption": "<p><a target=\"_blank\" rel=\"noopener\" href=\"https://commons.wikimedia.org/wiki/File:Bodu_Bala_Sena_symbol.svg\">Furfur</a>, <a target=\"_blank\" rel=\"noopener\" href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons</p>",
         "thumbnail": "data/images/Bodu_Bala_Sena_symbol.png"
+      },
+      "background": {
+        "color": "#5f5f5f"
       }
     }
   ]

@@ -34,8 +34,9 @@
 
   /** TimelineJS3 configuration options */
   var options = {
+    script_path: new URL("timeline3/js/", window.location.href).href,
     hash_bookmark: true,
-    timenav_position: "top",
+    timenav_position: "bottom",
     initial_zoom: 2,
     language: "en",
     default_bg_color: getBgColorFromCSS(), // colour is set in css/style.css --tl-default-bg

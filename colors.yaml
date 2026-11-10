@@ -1,0 +1,28 @@
+# =============================================================================
+# Color Variables for TimelineJS Slide Backgrounds
+# =============================================================================
+#
+# Define your reusable color variables here and use them in the 'Background'
+# column of BuddhismLanka.csv.
+#
+# When you run:
+#     python scripts/csv_to_timeline_json.py
+# the script will automatically replace variable names with their color values.
+#
+# Values can be:
+#   - Hex colors:       "#ef8215" (quotes recommended)
+#   - RGB / RGBA:       "rgb(53, 132, 132)" or "rgba(0, 0, 0, 0.6)"
+#   - HSL / HSLA:       "hsl(36, 100%, 50%)"
+#   - CSS color names:  "maroon", "navy", etc.
+#
+# Any direct color values or image URLs entered in the CSV will continue
+# to work as normal.
+# =============================================================================
+
+monk: "#a2580e"
+layman: "#358484"
+occupation: "#000000"
+title: "#700e01"
+institution: "#004c7f"
+organization: "#5f5f5f"
+kingdom: "#5b1212"
