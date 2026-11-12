@@ -74,6 +74,22 @@
     },
     {
       "start_date": {
+        "year": -306
+      },
+      "display_date": "During the reign of King Devanampiya Tissa",
+      "text": {
+        "headline": "Donation of Maha Megha Monastery",
+        "text": "Mahamevnāwa (Mahāmēgha, Pali: Mahāmeghavana) is an ancient park in Anuradhapura, Sri Lanka. It was created by King Mutasiva (367 - 307 BC). His son, King Devanampiya Tissa, donated it to the sangha. Today it is the site of Ruwanveli Stupa, Thūpārāma Stupa, and the Shri Mahabodhi."
+      },
+      "media": {
+        "url": "data/images/088_King_Devanampiyatissa_donates_the_Maha_Megha_Monastery_(20417188716)-cr.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:088_King_Devanampiyatissa_donates_the_Maha_Megha_Monastery_(20417188716).jpg\">Photo Dharma from Sadao, Thailand</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
+        "caption": "King Devanampiyatissa donates the Maha Megha Monastery. Painting found in Kelaniya Raja Maha Vihara",
+        "thumbnail": "data/images/088_King_Devanampiyatissa_donates_the_Maha_Megha_Monastery_(20417188716)-cr.jpg"
+      }
+    },
+    {
+      "start_date": {
         "year": -246
       },
       "text": {
@@ -92,17 +108,44 @@
     },
     {
       "start_date": {
-        "year": -140
+        "year": -103
+      },
+      "end_date": {
+        "year": -89
       },
       "text": {
-        "headline": "Initial construction of Ruwanweli Maha Seya",
-        "text": "Ruwanweli Maha Seya was built by Sinhalese King Dutugemunu in c. 140 B.C. It goes by many names including  Maha Thupa (lit. 'the Great Thupa'), Swarnamali Seya, Svaṇṇamāli Mahaceti (in Pali) and Rathnamali Seya. The stupa is one of the world's tallest ancient monuments, standing at 103 m (338 ft) and with a circumference of 290 m (951 ft). The original stupa had been about 55 m (180 ft) in height and was renovated by many kings. "
+        "headline": "Beminitiya Seya: the Great Famine",
+        "text": "Long periods of drought coupled with South Indian invasion meant that maintenance and repair of the once advanced irrigation systems of the kingdom were now completely neglected. This short period of time put a great strain on the Sangha."
+      }
+    },
+    {
+      "start_date": {
+        "year": -89
+      },
+      "display_date": "During the reign of King Valagamba",
+      "text": {
+        "headline": "First writing down of the Tripitaka",
+        "text": "It is said that 500 scholarly monks congregated at Aluvihare Rock temple to perform the difficult task of first reciting the doctrines and agreeing on an acceptable version before transcription. The entire transcription was done in books made of ola leaves, locally known as puskola poth."
       },
       "media": {
-        "url": "data/images/Sri_Lanka_-_Anuradhapura.jpg",
-        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Sri_Lanka_-_Anuradhapura.JPG\">BluesyPete</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
-        "caption": "Ruwanweli Maha Seya as it appears today. Located in Anuradhapura.",
-        "thumbnail": "data/images/Sri_Lanka_-_Anuradhapura.jpg"
+        "url": "data/images/Aluvihare-1896.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Aluvihare-1896.jpg\">Henry William Cave</a>, Public domain, via Wikimedia Commons",
+        "caption": " Aluvihare Rock Temple as in 1896 ",
+        "thumbnail": "data/images/Aluvihare-1896.jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": 412
+      },
+      "text": {
+        "headline": "Ven. Faxian visits Abhayagiri Vihāra",
+        "text": "Chinese pilgrim-monk Faxian visited Abhayagiri in 412 AD. Of the three major sects of that time, Abhayagiri Vihāra had by far the greatest connection with Mahayāna Buddhism."
+      },
+      "media": {
+        "url": "data/images/Faxian_statue_in_Maritime_Experiential_Museum_&_Aquarium_Singapore-cr.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Faxian_statue_in_Maritime_Experiential_Museum_%26_Aquarium_Singapore.jpg\">Ms Sarah Welch</a>, CC0, via Wikimedia Commons",
+        "thumbnail": "data/images/Faxian_statue_in_Maritime_Experiential_Museum_&_Aquarium_Singapore-cr.jpg"
       }
     },
     {
@@ -314,6 +357,23 @@
     },
     {
       "start_date": {
+        "year": 1815,
+        "month": 3,
+        "day": 2
+      },
+      "text": {
+        "headline": "Kandyan Convention",
+        "text": "<p>The Kandyan Convention (උඩරට ගිවිසුම) was a treaty signed on 2 March 1815 between the British governor of Ceylon and the chiefs of the Kandyan Kingdom for the deposition of King Sri Vikrama Rajasinha and ceding of the kingdom's territory to the British Crown. The promise to protect Buddhism was quickly forgotten and ignored. (<a href='https://en.wikipedia.org/wiki/Kandyan_Convention'>Wikipedia</a>)</p> <p><i>Clause 5: The religion of Boodho, professed by the chiefs and inhabitants of these provinces, is declared inviolable, and its rites, ministers, and places of worship are to be maintained and protected.</i> (<a href=''>source</a>)</p>"
+      },
+      "media": {
+        "url": "data/images/Page_6_Kandyan_Convention.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Page_6_Kandyan_Convention.jpg\">The Government Archives of Sri Lanka</a>.",
+        "caption": "Page 6 of the Kandyan Convention of 1815 with the beginning of clause 5.",
+        "thumbnail": "data/images/Page_6_Kandyan_Convention.jpg"
+      }
+    },
+    {
+      "start_date": {
         "year": 1823,
         "month": 2,
         "day": 9
@@ -430,6 +490,15 @@
     },
     {
       "start_date": {
+        "year": 1881
+      },
+      "text": {
+        "headline": "Colonial government ends financial support to the church",
+        "text": "In 1881 an ordinance passed that withdrew finanical support from all religious bodies, although it did not come into full effect until 1886. This mainly effected the Anglican Church and was seen as an initial step towards religious neutrality."
+      }
+    },
+    {
+      "start_date": {
         "year": 1883,
         "month": 3
       },
@@ -506,7 +575,7 @@
       },
       "text": {
         "headline": "Publication of Vandana books for school children",
-        "text": "Two liturgical books for school children—Buddhopastānaya (Attending to the Buddha), and Sri Saddharma Mañjarī (Blossoms of Sacred Dhamma)—are published in 1905. These books were used in schools to conduct Buddha vandana and teach about Buddhism."
+        "text": "Two liturgical books for school children—Buddhopastānaya (Attending to the Buddha), and Sri Saddharma Mañjarī (Auspicious Bouquet of Good Teaching)—are published in 1905. These books were used in schools to conduct Buddha vandana and teach about Buddhism."
       },
       "media": {
         "url": "data/images/Sri_Lanka_Gamini_Vidyalaya_Buddha_State-cr.JPG",
