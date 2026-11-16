@@ -1,0 +1,278 @@
+/* ==========================================================================
+   Timeline Search overlay — search.css
+   Completely independent from timeline3/. Injected alongside the page.
+   ========================================================================== */
+
+/* ---- Design tokens ---- */
+:root {
+  --ts-accent: #c9a84c;
+  /* gold, echoes the site palette */
+  --ts-bg: #ffffff;
+  /* dark navy */
+  --ts-bg-panel: #112233;
+  --ts-text: #f0e6d3;
+  --ts-text-muted: #8fa8c0;
+  --ts-hover: #1a3a5c;
+  --ts-active: #1e4a73;
+  --ts-border: rgba(201, 168, 76, 0.35);
+  --ts-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+  --ts-btn-size: 44px;
+  --ts-btn-inset: 16px;
+  --ts-radius: 10px;
+  --ts-panel-width: min(480px, calc(100vw - 32px));
+  --ts-transition: 220ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ---- Search trigger button (top-right, always visible) ---- */
+.tl-search-btn {
+  position: fixed;
+  top: var(--ts-btn-inset);
+  right: var(--ts-btn-inset);
+  z-index: 9000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--ts-btn-size);
+  height: var(--ts-btn-size);
+
+  background: var(--ts-bg);
+  color: var(--ts-accent);
+  border: 1px solid var(--ts-border);
+  border-radius: 50%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+  transition: background var(--ts-transition),
+    color var(--ts-transition),
+    box-shadow var(--ts-transition),
+    transform var(--ts-transition);
+}
+
+.tl-search-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.tl-search-btn:hover,
+.tl-search-btn:focus-visible {
+  background: var(--ts-hover);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+  transform: scale(1.08);
+  outline: 2px solid var(--ts-accent);
+  outline-offset: 2px;
+}
+
+.tl-search-btn:active {
+  transform: scale(0.96);
+}
+
+/* ---- Backdrop ---- */
+.tl-search-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 8900;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(2px);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--ts-transition);
+}
+
+.tl-search-backdrop--open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ---- Search panel ---- */
+.tl-search-panel {
+  position: fixed;
+  top: calc(var(--ts-btn-inset) * 2 + var(--ts-btn-size));
+  right: var(--ts-btn-inset);
+  z-index: 9100;
+
+  width: var(--ts-panel-width);
+  max-height: min(70vh, 540px);
+
+  display: flex;
+  flex-direction: column;
+
+  background: var(--ts-bg-panel);
+  border: 1px solid var(--ts-border);
+  border-radius: var(--ts-radius);
+  box-shadow: var(--ts-shadow);
+  overflow: hidden;
+
+  /* Hidden state */
+  opacity: 0;
+  transform: translateY(-10px) scale(0.97);
+  pointer-events: none;
+  transition: opacity var(--ts-transition),
+    transform var(--ts-transition);
+}
+
+.tl-search-panel--open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+/* ---- Input row ---- */
+.tl-search-input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--ts-border);
+  flex-shrink: 0;
+}
+
+.tl-search-input {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 10px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--ts-text);
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid var(--ts-border);
+  border-radius: 6px;
+  outline: none;
+  transition: border-color var(--ts-transition),
+    box-shadow var(--ts-transition);
+}
+
+.tl-search-input::placeholder {
+  color: var(--ts-text-muted);
+}
+
+/* Remove browser default "x" clear button in search inputs */
+.tl-search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.tl-search-input:focus {
+  border-color: var(--ts-accent);
+  box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.25);
+}
+
+/* ---- Close button (inside panel) ---- */
+.tl-search-close {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  color: var(--ts-text-muted);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color var(--ts-transition), background var(--ts-transition);
+}
+
+.tl-search-close svg {
+  width: 16px;
+  height: 16px;
+}
+
+.tl-search-close:hover,
+.tl-search-close:focus-visible {
+  color: var(--ts-text);
+  background: var(--ts-hover);
+  outline: 2px solid var(--ts-accent);
+  outline-offset: 1px;
+}
+
+/* ---- Results list ---- */
+.tl-search-results {
+  flex: 1;
+  overflow-y: auto;
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--ts-border) transparent;
+}
+
+.tl-search-results::-webkit-scrollbar {
+  width: 5px;
+}
+
+.tl-search-results::-webkit-scrollbar-thumb {
+  background: var(--ts-border);
+  border-radius: 3px;
+}
+
+/* ---- Result item ---- */
+.tl-search-result {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px;
+  cursor: pointer;
+  color: var(--ts-text);
+  transition: background var(--ts-transition);
+}
+
+.tl-search-result:hover {
+  background: var(--ts-hover);
+}
+
+.tl-search-result--active,
+.tl-search-result[aria-selected="true"] {
+  background: var(--ts-active);
+  outline: none;
+}
+
+.tl-search-result__title {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tl-search-result__date {
+  flex-shrink: 0;
+  font-size: 0.78rem;
+  color: var(--ts-accent);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* ---- Empty / no-results ---- */
+.tl-search-no-results {
+  padding: 16px;
+  text-align: center;
+  color: var(--ts-text-muted);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/* ---- Live-region status (visually hidden, read by screen readers) ---- */
+.tl-search-status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 540px) {
+  :root {
+    --ts-btn-inset: 10px;
+    --ts-panel-width: calc(100vw - 20px);
+  }
+
+  .tl-search-panel {
+    right: 10px;
+    max-height: 60vh;
+  }
+}

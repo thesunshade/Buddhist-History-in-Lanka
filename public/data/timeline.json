@@ -243,7 +243,6 @@
       "start_date": {
         "year": 1517
       },
-      "display_date": "1517",
       "text": {
         "headline": "Portuguese commission the building of a fort in Colombo\n",
         "text": "The Portuguese developed their trading post into a fortified base and harbour to extend their control of the interior of the island. "
@@ -264,10 +263,10 @@
         "text": "Dharmapala (ධර්මපාල) or Dom João Dharmapala Peria Bandara was the last king of the Kingdom of Kotte, from 1551 until 27 May 1597. He is the first Christian king in Sri Lankan history. He is widely despised by the majority of Buddhist Sinhalese for having betrayed his religion of birth i.e., Buddhism and converting to the religion of the foreign conquerors, who they viewed as carrying a reign of terror. (<a href='https://en.wikipedia.org/wiki/Dharmapala_of_Kotte'>Wikipedia</a>)"
       },
       "media": {
-        "url": "data/images/960px-Signature_of_Dom_João_Dharmapala.png",
+        "url": "data/images/960px-Signature_of_Dom_João_Dharmapala-ex.png",
         "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Signature_of_Dom_Jo%C3%A3o_Dharmapala.png\">Nishadhi</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
         "caption": "Signature of Dom João Dharmapala of Kotte. As appeared in a letter addressed to Pope, dated 26th January 1574. (From Vatican archives.)",
-        "thumbnail": "data/images/960px-Signature_of_Dom_João_Dharmapala.png"
+        "thumbnail": "data/images/960px-Signature_of_Dom_João_Dharmapala-ex.png"
       }
     },
     {
