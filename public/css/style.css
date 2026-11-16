@@ -81,3 +81,7 @@ header p.subtitle {
 .tl-slide-content-container {
   box-sizing: content-box;
 }
+
+.tl-timegroup.tl-timegroup-alternate {
+  background: #f7d87c
+}

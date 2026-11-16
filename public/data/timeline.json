@@ -108,6 +108,23 @@
     },
     {
       "start_date": {
+        "year": -161
+      },
+      "end_date": {
+        "year": -137
+      },
+      "text": {
+        "headline": "Reign of King Dutugamunu",
+        "text": "Duṭugæmuṇu (දුටුගැමුණු), also known as Duṭṭhagāmaṇī Abhaya, was a king of the Anuradhapura Kingdom. He is renowned for first uniting the whole island of Sri Lanka by defeating and overthrowing Elara, a Tamil king from the Chola Kingdom, who had invaded the Anuradhapura kingdom in 205 BC."
+      },
+      "media": {
+        "url": "data/images/1280px-KING_DUTUGEMUNU_(161_BC_–_137_BC)-cr.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:KING_DUTUGEMUNU_(161_BC_%E2%80%93_137_BC).JPG\">Rushdy Nisthar</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+        "thumbnail": "data/images/1280px-KING_DUTUGEMUNU_(161_BC_–_137_BC)-cr.jpg"
+      }
+    },
+    {
+      "start_date": {
         "year": -103
       },
       "end_date": {
@@ -132,6 +149,22 @@
         "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Aluvihare-1896.jpg\">Henry William Cave</a>, Public domain, via Wikimedia Commons",
         "caption": " Aluvihare Rock Temple as in 1896 ",
         "thumbnail": "data/images/Aluvihare-1896.jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": 301
+      },
+      "display_date": "During the reign of King Sirimeghavanna",
+      "text": {
+        "headline": "Princess Hemamali and Prince Dantha bring the Sacred Tooth Relic",
+        "text": "After the Maha parinirvana of Gautama Buddha, according to the legend, the tooth relic was preserved in Kalinga. When kingdom Kalinga was attacked, brought to the island by Princess Hemamali and her brother, Prince Dantha on the instructions of their father King Guhasiva. Hemmamali hid the relic in her hair on the way to the island."
+      },
+      "media": {
+        "url": "data/images/Princess_Hemamali_&_Prince_Dantha-smaller.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Princess_Hemamali_%26_Prince_Dantha.JPG\">Anuradha Dullewe Wijeyeratne</a>, Public domain",
+        "caption": "Photograph of Wall painting in Kelaniya Raja Maha Vihara of Princess Hemamali & Prince Dantha",
+        "thumbnail": "data/images/Princess_Hemamali_&_Prince_Dantha-smaller.jpg"
       }
     },
     {
@@ -224,6 +257,36 @@
     },
     {
       "start_date": {
+        "year": 1557
+      },
+      "text": {
+        "headline": "Catholic conversion of the King of Koṭṭe",
+        "text": "Dharmapala (ධර්මපාල) or Dom João Dharmapala Peria Bandara was the last king of the Kingdom of Kotte, from 1551 until 27 May 1597. He is the first Christian king in Sri Lankan history. He is widely despised by the majority of Buddhist Sinhalese for having betrayed his religion of birth i.e., Buddhism and converting to the religion of the foreign conquerors, who they viewed as carrying a reign of terror. (<a href='https://en.wikipedia.org/wiki/Dharmapala_of_Kotte'>Wikipedia</a>)"
+      },
+      "media": {
+        "url": "data/images/960px-Signature_of_Dom_João_Dharmapala.png",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Signature_of_Dom_Jo%C3%A3o_Dharmapala.png\">Nishadhi</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+        "caption": "Signature of Dom João Dharmapala of Kotte. As appeared in a letter addressed to Pope, dated 26th January 1574. (From Vatican archives.)",
+        "thumbnail": "data/images/960px-Signature_of_Dom_João_Dharmapala.png"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1575
+      },
+      "text": {
+        "headline": "Sacking of Kelaniya Vihara by the Portuguese",
+        "text": "The Kelaniya Raja Maha Vihara was destroyed by the Portuguese as part of a long reign of terror against Buddhist institutions. It was, though, not the first occupying force to do so. There is a popular saying that as the Kelaniya temple rose, Sri Lanka rose and as it fell, the country and its administration fell."
+      },
+      "media": {
+        "url": "data/images/3840px-099_Portuguese_destroy_Kelaniya_(20256719389)-rt.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:099_Portuguese_destroy_Kelaniya_(20256719389).jpg\">Photo Dharma</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>",
+        "caption": "Portuguese destroy Kelaniya, Kelaniya Raja Maha Vihara. Painting by Solias Mendis",
+        "thumbnail": "data/images/3840px-099_Portuguese_destroy_Kelaniya_(20256719389)-rt.jpg"
+      }
+    },
+    {
+      "start_date": {
         "year": 1597
       },
       "end_date": {
@@ -256,7 +319,6 @@
       },
       "media": {
         "url": "data/images/960px-AMH-2634-NA_Map_of_Ceylon.jpg",
-        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:AMH-2634-NA_Map_of_Ceylon.jpg\">Nationaal Archief</a>, Public domain, via Wikimedia Commons",
         "caption": "Dutch Ceylon. Jean du Perron (land surveyor / mapmaker), Willem Jacob Graaf (patron)",
         "thumbnail": "data/images/960px-AMH-2634-NA_Map_of_Ceylon.jpg"
       },
@@ -316,11 +378,12 @@
     {
       "start_date": {
         "year": 1753,
-        "month": 7
+        "month": 7,
+        "day": 20
       },
       "display_date": "Esala Poya Day 1753",
       "text": {
-        "headline": "Weliwita Sri Saranankara Thero ordained and appointed Sangharaja",
+        "headline": "Founding of the Siyam\nNikāya",
         "text": "<p>Weliwita Sri Saranankara Thero recieved high ordination by the deligation from Thailand on the Esala poya day in 1753 at the Malwatu Maha Viharaya. He was soon after appointed Sangharaja by king King <a href=\"https://en.wikipedia.org/wiki/Kirti_Sri_Rajasinha_of_Kandy\" title=\"Kirti Sri Rajasinha of Kandy\">Kirti Sri Rajasinha</a>. (<a href=\"https://en.wikipedia.org/wiki/Weliwita_Sri_Saranankara_Thero#Appointed_Sangaraja\">Wikipedia</a>)</p>"
       },
       "media": {
@@ -385,7 +448,7 @@
       },
       "text": {
         "headline": "Ven. Migettuwatte Gunananda Thera (පූජ්‍ය මිගෙට්ටුවත්තේ ගුණානන්ද හිමි)",
-        "text": "Ven. Migettuwatte Gunananda Thera, or Mohottiwatte Gunananda Thera, is known for leading the Buddhist side in debates between Buddhists and Christians in Baddegama, Udanwita, Waragoda, Liyanagemulla, Gampola, and Panadura, where the most famous of the debates took place. As a result of the debates, Buddhism in Sri Lanka saw a revival. (<a href='https://en.wikipedia.org/wiki/Migettuwatte_Gunananda_Thera'>Wikipedia</a>)"
+        "text": "Ven. Migettuwatte Gunananda Thera, or Mohoṭṭiwatte Gunaṇānda Thera, is known for leading the Buddhist side in debates between Buddhists and Christians in Baddegama, Udanwita, Waragoda, Liyanagemulla, Gampola, and Panadura, where the most famous of the debates took place. As a result of the debates, Buddhism in Sri Lanka saw a revival. (<a href='https://en.wikipedia.org/wiki/Migettuwatte_Gunananda_Thera'>Wikipedia</a>)"
       },
       "media": {
         "url": "data/images/960px-Venerable_Migettuwatte_Gunananda_Thera_(1823-1890).jpg",
@@ -424,7 +487,7 @@
       },
       "text": {
         "headline": "First Buddhist Press",
-        "text": "First Buddhist press, Lankopakara Press, established by Venerable Hikkaduwe Sri Sumangala Thera"
+        "text": "First Buddhist press, Lankopakara Press, established by Ven. Hikkaduwe Sri Sumangala Thera. A second was founded in the same year by Ven. Mohoṭṭivatte\nGuṇānanda in Colombo. These presses finally gave Buddhists a means to respond to criticisms from the various missionary presses."
       },
       "media": {
         "url": "data/images/Lankopakara_Press.jpg",
@@ -433,6 +496,15 @@
       },
       "background": {
         "color": "#004c7f"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1862
+      },
+      "text": {
+        "headline": "Founding of the Society for the Propagation of Buddhism",
+        "text": "The Society for the Propagation of Buddhism (සර්වඥ ශාසනාභිවෘද්ධි දායක ධර්ම සමාගම, Religious Society for Giving Increase to Teaching of the Omniscient One) was created by the supporters of Migeṭṭiwatte Guṇānanda to produce printed material to both promote Buddhism as well as push back against it's Christian detractors. It's name is a play on “Society for the Propagation of Gospel,” which had been active in Ceylon since 1840."
       }
     },
     {
@@ -490,11 +562,38 @@
     },
     {
       "start_date": {
+        "year": 1878
+      },
+      "text": {
+        "headline": "Sinhala translation of Miḷinda Pañha",
+        "text": "Mohoṭṭivatte Guṇānanda publishes a translation into Sinhala of the classical Pāli Buddhist text,\n<i>Miḷinda Pañha</i>, <i>The Questions of King Milinda</i>."
+      }
+    },
+    {
+      "start_date": {
+        "year": 1880
+      },
+      "text": {
+        "headline": "Founding of the Buddhist Theosophical Society",
+        "text": "The primary work of this organization was the formation of Buddhist secular schools as a counter to the many Christian missionary schools"
+      }
+    },
+    {
+      "start_date": {
         "year": 1881
       },
       "text": {
         "headline": "Colonial government ends financial support to the church",
         "text": "In 1881 an ordinance passed that withdrew finanical support from all religious bodies, although it did not come into full effect until 1886. This mainly effected the Anglican Church and was seen as an initial step towards religious neutrality."
+      }
+    },
+    {
+      "start_date": {
+        "year": 1881
+      },
+      "text": {
+        "headline": "Printing of <i>Jātaka Pota</>i",
+        "text": "The Society for the Propagation of Buddhism printed a previous Sinhala translation of the Jātaka in four volumes. These are the stories of the previous lives of the Buddha Gotama before his enlightenment. This is a foundational text for traditional Buddhism in Sri Lanka."
       }
     },
     {
@@ -531,7 +630,37 @@
       },
       "text": {
         "headline": "Publication of <i>Buddha Ædahilla</i>",
-        "text": "Ven. Gunananda publishes the first printed liturgical book, Buddha Ædahilla, that gave lay people the guidance for performing Buddha Puja on their own. "
+        "text": "Ven. Guṇānanda publishes the first printed liturgical book, <i>Buddha Ædahilla<i>, that gave lay people the guidance for performing Buddha Puja on their own. The verses were mostly taken from traditional services performed by monastics with the special addition of verses honoring parents."
+      }
+    },
+    {
+      "start_date": {
+        "year": 1887
+      },
+      "text": {
+        "headline": "Publication of <i>Bauddha Praśnaya</i>",
+        "text": "Ven. Guṇānanda publishes his own chatechism in Sihala language, <i>Bauddha Praśnaya</i> (Buddhist Questions) as a counter to Olcot's highly inaccurate <i>Buddhist Chatecism</i>. "
+      }
+    },
+    {
+      "start_date": {
+        "year": 1897,
+        "month": 6,
+        "day": 17
+      },
+      "end_date": {
+        "year": 1975,
+        "month": 9,
+        "day": 18
+      },
+      "text": {
+        "headline": "Life of Solias Mendis",
+        "text": "Walimuni Solias Mendis was a renowned Sri Lankan artist primarily known for his Buddhist temple paintings, accomplished in a neo-classical style. At around the age of 30, he undertook a twenty-year project to complete the Kelaniya Vihara murals. His style was unique, from graceful brush strokes to perspective. (<a href='https://en.wikipedia.org/wiki/Solias_Mendis'>Wikipedia</a>)"
+      },
+      "media": {
+        "url": "data/images/Mr.Solias_Mendis-cr.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Mr.Solias_Mendis.jpg\">Photograph from family personal‏‏‏‏ collection</a>, CC0, via Wikimedia Commons",
+        "thumbnail": "data/images/Mr.Solias_Mendis-cr.jpg"
       }
     },
     {
@@ -575,7 +704,7 @@
       },
       "text": {
         "headline": "Publication of Vandana books for school children",
-        "text": "Two liturgical books for school children—Buddhopastānaya (Attending to the Buddha), and Sri Saddharma Mañjarī (Auspicious Bouquet of Good Teaching)—are published in 1905. These books were used in schools to conduct Buddha vandana and teach about Buddhism."
+        "text": "Two liturgical books for school children—<i>Buddhopastānaya</i> (Attending to the Buddha), and <i>Sri Saddharma Mañjarī</i> (Auspicious Bouquet of Good Teaching)—are published in 1905. These books were used in schools to conduct Buddha vandana and teach about Buddhism."
       },
       "media": {
         "url": "data/images/Sri_Lanka_Gamini_Vidyalaya_Buddha_State-cr.JPG",
