@@ -75,7 +75,7 @@
   /* -------------------------------------------------------------------------
    * Build search index from raw timeline JSON
    * ---------------------------------------------------------------------- */
-  var searchIndex = []; // [{id, headline, year, displayDate, searchText}]
+  var searchIndex = []; // [{id, headline, year, yearLabel, searchText}]
 
   /**
    * Assign unique IDs exactly as TL3 does: start from the headline slug,
@@ -116,17 +116,21 @@
       var uid = assignId(slug, i);
 
       // Human-readable date label
+      // Short year label for the results list (always "N BCE" or "N CE")
       var year = ev.start_date ? ev.start_date.year : null;
-      var displayDate = ev.display_date || (year !== null ? (year < 0 ? Math.abs(year) + " BCE" : year + " CE") : "");
+      var yearLabel = year !== null ? (year < 0 ? Math.abs(year) + " BCE" : year + " CE") : "";
+
+      // Keep the long display_date searchable, even though it's no longer shown
+      var displayDate = ev.display_date || yearLabel;
 
       // Concatenated searchable text (all significant fields)
-      var searchText = normalise([headline, bodyText, caption, credit, group, tag, displayDate].join(" "));
+      var searchText = normalise([headline, bodyText, caption, credit, group, tag, displayDate, yearLabel].join(" "));
 
       searchIndex.push({
         id: uid,
         headline: headline,
         year: year,
-        displayDate: displayDate,
+        yearLabel: yearLabel,
         searchText: searchText,
       });
     }
@@ -381,7 +385,7 @@
         titleEl.textContent = stripHtml(entry.headline);
 
         var dateEl = el("span", "tl-search-result__date");
-        dateEl.textContent = entry.displayDate;
+        dateEl.textContent = entry.yearLabel;
 
         item.appendChild(titleEl);
         item.appendChild(dateEl);
