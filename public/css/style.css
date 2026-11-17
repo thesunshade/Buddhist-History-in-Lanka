@@ -85,3 +85,7 @@ header p.subtitle {
 .tl-timegroup.tl-timegroup-alternate {
   background: #f7d87c
 }
+
+tl-timegroup-alternate>.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+  color: red !important
+}
