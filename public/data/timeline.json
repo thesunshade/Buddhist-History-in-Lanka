@@ -25,7 +25,40 @@
       "media": {
         "url": "data/images/30289988991_bcec9a9ef3_o-rs.jpg",
         "credit": "<a href=\"https://www.flickr.com/photos/denishc/30289988991\" title=\"Kelaniya Temple Painting (IMG_2227b)\">Kelaniya Temple Painting (IMG_2227b)</a>” by <a href=\"https://www.flickr.com/photos/denishc/\">Denish C</a>, <a href=\"https://creativecommons.org/licenses/by-nc-nd/2.0/deed.en\" rel=\"license noopener noreferrer\">CC BY-NC-ND 2.0</a>",
+        "caption": "The Buddha taming the yakkhas. Painting by Solias Mendis, Kelaniya Vihara",
         "thumbnail": "data/images/30289988991_bcec9a9ef3_o-rs.jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": -584
+      },
+      "display_date": "5th Year of the Buddha’s Enlightenment",
+      "text": {
+        "headline": "The Buddha visits Nāgadīpa",
+        "text": "According to the Mahavamsa The Buddha visits Nāgadīpa to settle a dispute between two nāga kings over a jeweled throne. "
+      },
+      "media": {
+        "url": "data/images/082-Buddha-and-the-Naga-Throne-Original-rs.jpg",
+        "credit": "Photo by <a href='https://photodharma.net/Sri-Lanka/Kelaniya/index.htm'>Anandajoti Bhikkhu</a>, CC BY-SA",
+        "caption": "The Buddha and the nāga throne. Painting by Solias Mendis, Kelaniya Vihara",
+        "thumbnail": "data/images/082-Buddha-and-the-Naga-Throne-Original-rs.jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": -581
+      },
+      "display_date": "8th Year of the Buddha’s Enlightenment",
+      "text": {
+        "headline": "The Buddha visits Sri Pada",
+        "text": "The Mahavamsa explains various visits that the Buddha made to Lanka in the 8th year of his enlightenment, including Kelaniya, Sri Pada, Dīghavāpi, and Anurādhapura."
+      },
+      "media": {
+        "url": "data/images/079-Buddha-on-Siripada-Original-cr.jpg",
+        "credit": "Photo by <a href='https://photodharma.net/Sri-Lanka/Kelaniya/index.htm'>Anandajoti Bhikkhu</a>, CC BY-SA",
+        "caption": "The Buddha on Sri Pada peak. Painting by Solias Mendis, Kelaniya Vihara",
+        "thumbnail": "data/images/079-Buddha-on-Siripada-Original-cr.jpg"
       }
     },
     {
@@ -810,6 +843,21 @@
         "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Sri_Lanka_North_Eastern_Province_locator_map.svg\">User:Jeroen</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons",
         "caption": "North Eastern Province of Sri Lanka, 1988 - 2006. The Tamil majority region largely controlled by opposition militant groups during the Sri Lankan Civil War ",
         "thumbnail": "data/images/960px-Sri_Lanka_North_Eastern_Province_locator_map.svg.png"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1999
+      },
+      "text": {
+        "headline": "Founding of Mahamevnawa Buddhist Monastery",
+        "text": "Mahamevanawa Buddhist Monastery was founded in 1999 in Polgahawela by  Ven. Kiribathgoda Gnanananda Thero as a monastery to support monastics and lay people in practicing the Sacred Teachings of the Supreme Buddha. "
+      },
+      "media": {
+        "url": "data/images/Mahamewnawa_polgahawela.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Mahamewnawa_polgahawela.jpg\">KSLwiki24</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+        "caption": "Siri Gautama Sambuddharaja Maligawa in Mahamevnawa Polgahawela ",
+        "thumbnail": "data/images/Mahamewnawa_polgahawela.jpg"
       }
     },
     {
