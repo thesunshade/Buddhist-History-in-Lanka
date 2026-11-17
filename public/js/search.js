@@ -21,8 +21,9 @@
    * Slugify — mirrors TimelineJS3's internal j() / _assignID() logic so that
    * the unique_id we compute matches what the timeline widget actually uses.
    * ---------------------------------------------------------------------- */
-  var DIACRITIC_FROM = "àáâãäèéêëìíîïòóôõöùúûüñç·/_,:;";
-  var DIACRITIC_TO = "aaaaaeeeeiiiioooooouuuunc------";
+  // Exact FROM/TO strings extracted directly from timeline3/js/timeline.js j()
+  var DIACRITIC_FROM = "ãàáäâẽèéëêìíïîõòóöôùúüûñç·/_,:;";
+  var DIACRITIC_TO = "aaaaaeeeeeiiiiooooouuuunc------";
 
   function stripHtml(str) {
     // Remove HTML tags and decode simple entities
@@ -48,7 +49,7 @@
     str = str.replace(/\s+/g, "-");
     str = str.replace(/-+/g, "-");
     // TL3 also prepends "d-" when the slug starts with a digit
-    str = str.replace(/^([0-9])/, "d-$1");
+    str = str.replace(/^([0-9])/, "_$1");
     return str;
   }
 

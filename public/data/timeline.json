@@ -15,6 +15,21 @@
   "events": [
     {
       "start_date": {
+        "year": -589
+      },
+      "display_date": "Year of the Buddha’s Enlightenment",
+      "text": {
+        "headline": "The Buddha visits Mahiyaṅgana",
+        "text": "In the ninth month after his enlightenment, the Mahavamsa recounts the Buddha’s first visit to Lanka. It says that the Buddha subdued the yakshas there and held a discourse on Dhamma with them. They were then sent to an island named Giri so that the country would be \"purified\" and Buddhism could be established there later on, where it would prevail in all its glory. (<a href='https://en.wikipedia.org/wiki/Mahiyangana_Raja_Maha_Vihara'>Wikipedia</a>)"
+      },
+      "media": {
+        "url": "data/images/30289988991_bcec9a9ef3_o-rs.jpg",
+        "credit": "<a href=\"https://www.flickr.com/photos/denishc/30289988991\" title=\"Kelaniya Temple Painting (IMG_2227b)\">Kelaniya Temple Painting (IMG_2227b)</a>” by <a href=\"https://www.flickr.com/photos/denishc/\">Denish C</a>, <a href=\"https://creativecommons.org/licenses/by-nc-nd/2.0/deed.en\" rel=\"license noopener noreferrer\">CC BY-NC-ND 2.0</a>",
+        "thumbnail": "data/images/30289988991_bcec9a9ef3_o-rs.jpg"
+      }
+    },
+    {
+      "start_date": {
         "year": -543
       },
       "text": {
@@ -526,6 +541,18 @@
     },
     {
       "start_date": {
+        "year": 1867
+      },
+      "end_date": {
+        "year": 1868
+      },
+      "text": {
+        "headline": "Pelmadulla Vinaya project",
+        "text": "A Buddhist council that aimed to review existing Pali manuscripts and create an authoritative edition. Both the Siam Nikāya and the Amarapura Nikāya participated. The Vinaya portion was completed in 1868."
+      }
+    },
+    {
+      "start_date": {
         "year": 1869
       },
       "text": {
@@ -591,7 +618,7 @@
         "year": 1881
       },
       "text": {
-        "headline": "Printing of <i>Jātaka Pota</>i",
+        "headline": "Printing of <i>Jātaka Pota</i>",
         "text": "The Society for the Propagation of Buddhism printed a previous Sinhala translation of the Jātaka in four volumes. These are the stories of the previous lives of the Buddha Gotama before his enlightenment. This is a foundational text for traditional Buddhism in Sri Lanka."
       }
     },
