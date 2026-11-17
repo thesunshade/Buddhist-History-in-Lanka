@@ -140,13 +140,22 @@
    * Search
    * ---------------------------------------------------------------------- */
   function search(query) {
-    if (!query || !query.trim()) return [];
+    if (!query || !query.trim()) return searchIndex.slice();
     var terms = normalise(query).split(/\s+/).filter(Boolean);
     return searchIndex.filter(function (entry) {
       return terms.every(function (term) {
         return entry.searchText.indexOf(term) !== -1;
       });
     });
+  }
+
+  /**
+   * The id of the event currently shown by the timeline, read from the
+   * "#event-{id}" hash that TimelineJS3 keeps in sync. Null if there isn't one.
+   */
+  function currentEventId() {
+    var m = /^#event-(.+)$/.exec(window.location.hash);
+    return m ? m[1] : null;
   }
 
   /* -------------------------------------------------------------------------
@@ -270,7 +279,9 @@
     dom.panel.classList.add("tl-search-panel--open");
     dom.backdrop.classList.add("tl-search-backdrop--open");
     dom.input.value = "";
-    renderResults([]);
+    state.results = search("");
+    state.active = -1;
+    renderResults(state.results, "");
     // Slight delay so the CSS transition finishes before focus
     setTimeout(function () {
       dom.input.focus();
@@ -300,8 +311,10 @@
     renderResults(state.results, q);
 
     // Auto-highlight the first result so the user can see what Enter will pick
-    state.active = state.results.length ? 0 : -1;
-    highlightActive();
+    if (q.trim()) {
+      state.active = state.results.length ? 0 : -1;
+      highlightActive();
+    }
   }
 
   function onInputKeydown(e) {
@@ -316,8 +329,8 @@
         break;
       case "Enter":
         // Use the highlighted result, or fall back to the first one
-        var idx = state.active >= 0 ? state.active : 0;
-        if (state.results[idx]) {
+        var idx = state.active >= 0 ? state.active : dom.input.value.trim() ? 0 : -1;
+        if (idx >= 0 && state.results[idx]) {
           e.preventDefault();
           navigateTo(state.results[idx]);
         }
@@ -357,8 +370,10 @@
     dom.results.innerHTML = "";
     dom.input.removeAttribute("aria-activedescendant");
 
-    if (!query || !query.trim()) {
-      dom.status.textContent = "";
+    var hasQuery = query && query.trim();
+
+    if (!hasQuery && searchIndex.length === 0) {
+      dom.status.textContent = ""; // data not loaded yet; show nothing rather than "No events found"
       return;
     }
 
@@ -370,7 +385,7 @@
       return;
     }
 
-    dom.status.textContent = results.length + " result" + (results.length === 1 ? "" : "s") + " found";
+    dom.status.textContent = hasQuery ? results.length + " result" + (results.length === 1 ? "" : "s") + " found" : results.length + " event" + (results.length === 1 ? "" : "s");
 
     for (var i = 0; i < results.length; i++) {
       (function (entry, idx) {
@@ -419,6 +434,29 @@
         dom.results.appendChild(item);
       })(results[i], i);
     }
+
+    // With no query, start the list centred on the event currently shown
+    if (!hasQuery) {
+      var currentId = currentEventId();
+      var cur = -1;
+      for (var j = 0; j < results.length; j++) {
+        if (results[j].id === currentId) {
+          cur = j;
+          break;
+        }
+      }
+      if (cur >= 0) {
+        state.active = cur;
+        highlightActive();
+        // Wait for the panel's open transition before centring
+        setTimeout(function () {
+          var items = dom.results.querySelectorAll(".tl-search-result");
+          if (state.open && !dom.input.value.trim() && items[cur]) {
+            items[cur].scrollIntoView({ block: "center" });
+          }
+        }, 60);
+      }
+    }
   }
 
   /* -------------------------------------------------------------------------
@@ -460,6 +498,10 @@
       })
       .then(function (data) {
         buildIndex(data);
+        if (state.open && !dom.input.value.trim()) {
+          state.results = search("");
+          renderResults(state.results, "");
+        }
       })
       .catch(function (err) {
         console.warn("[search] Could not load timeline data:", err);
