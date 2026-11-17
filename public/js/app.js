@@ -39,6 +39,7 @@
     timenav_position: "bottom",
     initial_zoom: 2,
     language: "en",
+    timenav_mobile_height_percentage: 10,
     default_bg_color: getBgColorFromCSS(), // colour is set in css/style.css --tl-default-bg
   };
 
