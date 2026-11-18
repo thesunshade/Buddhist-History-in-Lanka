@@ -38,7 +38,7 @@
     hash_bookmark: true,
     timenav_position: "bottom",
     initial_zoom: 2,
-    duration: 3000,
+    duration: 3,
     language: "en",
     font: "css/font.custom.css",
     default_bg_color: getBgColorFromCSS(), // colour is set in css/style.css --tl-default-bg
