@@ -46,7 +46,11 @@
   };
 
   window.addEventListener("DOMContentLoaded", function () {
-    /* global TL */
-    new TL.Timeline("timeline-embed", DATA_URL, options);
+    /* global TL, TLNavToggle */
+    var timeline = new TL.Timeline("timeline-embed", DATA_URL, options);
+    window.timeline = timeline; // handy for the console / other scripts
+
+    /* the collapse tab (must be created with the instance, see notes) */
+    window.navToggle = new TLNavToggle(timeline);
   });
 })();

@@ -530,11 +530,26 @@
     },
     {
       "start_date": {
+        "year": 1848
+      },
+      "text": {
+        "headline": "Matale Rebellion",
+        "text": "The Matale rebellion, also known as the Rebellion of 1848, took place in Matale city, against the British colonial government. It was lead by the pesants in response to colonial theft of land and taxation. Although only indirectly related to the practice of Buddhism, this pushback made the government reluctant to impose policies detrimental to the religion."
+      },
+      "media": {
+        "url": "data/images/Matale1848-0746-rs.JPG",
+        "credit": "<a href=\"https://creativecommons.org/licenses/by/2.5\" title=\"Creative Commons Attribution 2.5\">CC BY 2.5</a>, <a href=\"https://commons.wikimedia.org/wiki/Special:Redirect/page/340803\">Link</a>",
+        "caption": "Memorial over 1848 revolt, Matale, Sri Lanka. ",
+        "thumbnail": "data/images/Matale1848-0746-rs.JPG"
+      }
+    },
+    {
+      "start_date": {
         "year": 1862
       },
       "text": {
         "headline": "First Buddhist Press",
-        "text": "First Buddhist press, Lankopakara Press, established by Ven. Hikkaduwe Sri Sumangala Thera. A second was founded in the same year by Ven. Mohoṭṭivatte\nGuṇānanda in Colombo. These presses finally gave Buddhists a means to respond to criticisms from the various missionary presses as well as print their own periodicals such as the Buddhist newspaper <i>Laṃkālokaya</i>."
+        "text": "First Buddhist press, Lankopakara Press, established by Ven. Hikkaduwe Sri Sumangala Thera. A second was founded in the same year by Ven. Mohoṭṭivatte\nGuṇānanda in Colombo. These presses finally gave Buddhists a means to respond to criticisms from the various missionary presses as well as print their own periodicals such as the Buddhist newspaper <i>Laṃkālokaya</i>. Another, Laṅkābhinava Viśruta, was founded in 1863. "
       },
       "media": {
         "url": "data/images/Lankopakara_Press.jpg",
