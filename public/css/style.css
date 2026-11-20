@@ -29,14 +29,6 @@ body {
   min-height: 100dvh;
 }
 
-#timeline-embed {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
 /* Page header
    -------------------------------------------------------------------------- */
 /* header {
@@ -63,11 +55,11 @@ header p.subtitle {
 /* Timeline embed container
    -------------------------------------------------------------------------- */
 #timeline-embed {
-  flex: 1;
-  width: 100%;
-  /* Fill the remaining viewport height */
-  height: calc(100dvh - 90px);
-  min-height: 500px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 /* Fix: our box-sizing:border-box reset conflicts with TimelineJS's JavaScript
