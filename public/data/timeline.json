@@ -341,7 +341,7 @@
       },
       "text": {
         "headline": "Portuguese Occupation\n",
-        "text": "<p><strong>Portuguese Ceylon</strong> (Portuguese: <em>Ceil&atilde;o Portugu&ecirc;s</em>, Sinhala: පෘතුගීසි ලංකාව <em>Puruthugisi Lankawa</em>, Tamil: போர்த்துக்கேய இலங்கை <em>Porthukeya Ilankai</em>) is the name given to the territory on Ceylon, modern-day Sri-Lanka, controlled by the Portuguese Empire between 1597 and 1658. (<a href=\"https://en.wikipedia.org/wiki/Portuguese_Ceylon\">Wikipedia</a>) Unlike the later Dutch and British occupation, the Portugues used overt violence to try to crush local religious practices by destroying places of worship.</p><p>Map Key:<br><span style=\"background-color:#358484\">&nbsp;&nbsp;&nbsp;</span> Portuguese Ceylon (1597-1619)<br><span style=\"background-color:#17ccc7\">&nbsp;&nbsp;&nbsp;</span> Jaffna Kingdom and area annexed Kingdom of Sitawaka in 1594-1619</p>"
+        "text": "<p><strong>Portuguese Ceylon</strong> is the name given to the territory of Ceylon controlled by the Portuguese Empire between 1597 and 1658. (<a href=\"https://en.wikipedia.org/wiki/Portuguese_Ceylon\">Wikipedia</a>) Unlike the later Dutch and British occupation, the Portugues used overt violence to try to crush local religious practices by destroying places of worship.</p><p>Map Key:<br><span style=\"background-color:#328585\">&nbsp;&nbsp;&nbsp;</span> Portuguese Ceylon (1597-1619)<br><span style=\"background-color:#17ccc7\">&nbsp;&nbsp;&nbsp;</span> Jaffna Kingdom and area annexed Kingdom of Sitawaka in 1594-1619</p>"
       },
       "media": {
         "url": "data/images/960px-Portuguese_Ceylon.svg.png",
@@ -463,6 +463,42 @@
       "group": "era",
       "background": {
         "color": "#000000"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1798
+      },
+      "end_date": {
+        "year": 1815
+      },
+      "text": {
+        "headline": "Reign of King Sri Vikrama Rajasinha",
+        "text": "Sri Vikrama Rajasinha (1780–1832), was the last of four kings to rule the Kingdom of Kandy. His capture by the British in 1815 effectively concluded the 2,300-year Sinhalese monarchy on the island. The Nayak Kings were of Telugu origin and practiced Shaivite Hinduism and were patrons of Theravada Buddhism. The Nayak rulers played a huge role in reviving Buddhism in the island."
+      },
+      "media": {
+        "url": "data/images/1920px-MET_DP240203.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:MET_DP240203.jpg\">Metropolitan Museum of Art</a>, CC0, via Wikimedia Commons",
+        "caption": "Ivory portrait of  King Sri Vikrama Raja Sinha",
+        "thumbnail": "data/images/1920px-MET_DP240203.jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1802
+      },
+      "text": {
+        "headline": "Founding of Amarapura Nikāya",
+        "text": "In 1764, the Siam Nikāya restricted ordination to members of the Govigama caste. Eventually monks from the maritime districts formed the Amarapura Nikāya with help from Burmese monks. "
+      },
+      "media": {
+        "url": "data/images/1280px-Most_Venerable_Walitota_Sri_Gnanawimalatisssa_Maha_Thera_(1766-1833)-cr.jpg",
+        "credit": " Public domain, via Wikimedia Commons",
+        "caption": " Most Venerable Walitota Sri Gnanawimalatisssa Maha Thera (1766-1833), Founder of Amarapura Nikaya",
+        "thumbnail": "data/images/1280px-Most_Venerable_Walitota_Sri_Gnanawimalatisssa_Maha_Thera_(1766-1833)-cr.jpg"
+      },
+      "background": {
+        "color": "#a2580e"
       }
     },
     {
