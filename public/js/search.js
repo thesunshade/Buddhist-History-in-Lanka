@@ -282,10 +282,6 @@
     state.results = search("");
     state.active = -1;
     renderResults(state.results, "");
-    // Slight delay so the CSS transition finishes before focus
-    setTimeout(function () {
-      dom.input.focus();
-    }, 50);
   }
 
   function closePanel() {

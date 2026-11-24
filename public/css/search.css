@@ -35,15 +35,11 @@
   height: var(--ts-btn-size);
 
   background: var(--ts-bg);
-  color: var(--ts-accent);
+  color: #444;
   border: 1px solid var(--ts-border);
   border-radius: 50%;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.13);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
   cursor: pointer;
-  transition: background var(--ts-transition),
-    color var(--ts-transition),
-    box-shadow var(--ts-transition),
-    transform var(--ts-transition);
 }
 
 .tl-search-btn svg {
@@ -51,17 +47,17 @@
   height: 20px;
 }
 
-.tl-search-btn:hover,
+.tl-search-btn:hover {
+  background: #f5f5f5;
+}
+
 .tl-search-btn:focus-visible {
-  background: var(--ts-hover);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
-  transform: scale(1.08);
-  outline: 2px solid var(--ts-accent);
+  outline: 2px solid #888;
   outline-offset: 2px;
 }
 
 .tl-search-btn:active {
-  transform: scale(0.96);
+  background: #ebebeb;
 }
 
 /* ---- Backdrop ---- */
@@ -132,7 +128,7 @@
   font-size: 1rem;
   font-family: inherit;
   color: var(--ts-text);
-  background: rgba(255, 255, 255, 0.07);
+  background: #fff;
   border: 1px solid var(--ts-border);
   border-radius: 6px;
   outline: none;
@@ -150,8 +146,8 @@
 }
 
 .tl-search-input:focus {
-  border-color: var(--ts-accent);
-  box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.25);
+  border-color: #888;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.08);
 }
 
 /* ---- Close button (inside panel) ---- */
@@ -177,9 +173,9 @@
 
 .tl-search-close:hover,
 .tl-search-close:focus-visible {
-  color: var(--ts-text);
-  background: var(--ts-hover);
-  outline: 2px solid var(--ts-accent);
+  color: #222;
+  background: #f0f0f0;
+  outline: 2px solid #aaa;
   outline-offset: 1px;
 }
 
@@ -238,7 +234,7 @@
 .tl-search-result__date {
   flex-shrink: 0;
   font-size: 0.78rem;
-  color: var(--ts-accent);
+  color: var(--ts-text-muted);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -265,12 +261,18 @@
 /* ---- Responsive ---- */
 @media (max-width: 540px) {
   :root {
+    --ts-btn-size: 36px;
     --ts-btn-inset: 10px;
     --ts-panel-width: calc(100vw - 20px);
   }
 
+  .tl-search-btn svg {
+    width: 17px;
+    height: 17px;
+  }
+
   .tl-search-panel {
     right: 10px;
-    max-height: 60vh;
+    max-height: 85vh;
   }
 }
