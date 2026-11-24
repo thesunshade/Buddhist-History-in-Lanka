@@ -20,7 +20,7 @@
       "display_date": "Year of the Buddha’s Enlightenment",
       "text": {
         "headline": "The Buddha visits Mahiyaṅgana",
-        "text": "In the ninth month after his enlightenment, the Mahavamsa recounts the Buddha’s first visit to Lanka. It says that the Buddha subdued the yakshas there and held a discourse on Dhamma with them. They were then sent to an island named Giri so that the country would be \"purified\" and Buddhism could be established there later on, where it would prevail in all its glory. (<a href='https://en.wikipedia.org/wiki/Mahiyangana_Raja_Maha_Vihara'>Wikipedia</a>)"
+        "text": "In the ninth month after his enlightenment, the Mahavamsa recounts the Buddha’s first visit to Lanka. It says that the Buddha subdued the yakshas there and held a discourse on Dhamma with them. They were then sent to an island named Giri so that the country would be \"purified\" and Buddhism could be established there later on, where it would prevail in all its glory. (<a href='https://en.wikipedia.org/wiki/Mahiyangana_Raja_Maha_Vihara'>Wikipedia</a>)<details class=\"show-more\">\n    <summary>\n        <span class=\"show-more-label\">more…</span>\n        <span class=\"show-less-label\">show less</span>\n    </summary>\n\n    <div class=\"show-more-content\">\n        Your additional content goes here.\n    </div>\n</details>"
       },
       "media": {
         "url": "data/images/30289988991_bcec9a9ef3_o-rs.jpg",
@@ -530,8 +530,8 @@
         "day": 21
       },
       "text": {
-        "headline": "Ven. Migettuwatte Gunananda Thera (පූජ්‍ය මිගෙට්ටුවත්තේ ගුණානන්ද හිමි)",
-        "text": "Ven. Migettuwatte Gunananda Thera, or Mohoṭṭiwatte Gunaṇānda Thera, is known for leading the Buddhist side in debates between Buddhists and Christians in Baddegama, Udanwita, Waragoda, Liyanagemulla, Gampola, and Panadura, where the most famous of the debates took place. As a result of the debates, Buddhism in Sri Lanka saw a revival. (<a href='https://en.wikipedia.org/wiki/Migettuwatte_Gunananda_Thera'>Wikipedia</a>)"
+        "headline": "Ven. Migeṭṭuwatte Guṇānanda Thera ",
+        "text": "Ven. Migeṭṭuwatte Guṇānanda Thera, or Mohoṭṭiwatte Gunaṇānda Thera, is known for leading the Buddhist side in debates between Buddhists and Christians in Baddegama, Udanwita, Waragoda, Liyanagemulla, Gampola, and Panadura, where the most famous of the debates took place. As a result of the debates, Buddhism in Sri Lanka saw a revival. (<a href='https://en.wikipedia.org/wiki/Migettuwatte_Gunananda_Thera'>Wikipedia</a>)"
       },
       "media": {
         "url": "data/images/960px-Venerable_Migettuwatte_Gunananda_Thera_(1823-1890).jpg",
@@ -553,8 +553,8 @@
         "day": 29
       },
       "text": {
-        "headline": "Hikkaduwe Sri Sumangala Thera (හික්කඩුවේ ශ්‍රි සුමංගල නාහිමි)",
-        "text": "Hikkaduwe Sri Sumangala Thera was one of the pioneers of the Sri Lankan Buddhist revivalist movement in the 19th century. He was the founder of Vidyodaya Pirivena, Maligakanda, in 1873, which was granted the university status later in 1959 by the Government of Sri Lanka. A veteran author and a fiery orator, he was a major figure in the Panadurawadaya, a religious debate held between Christian missionaries and Buddhist monks in 1873 at Panadura, Sri Lanka. (<a href='https://en.wikipedia.org/wiki/Hikkaduwe_Sri_Sumangala_Thera'>Wikipedia</a>)"
+        "headline": "Hikkaduwe Sri Sumaṅgala Thera ",
+        "text": "Hikkaduwe Sri Sumaṅgala Thera was one of the pioneers of the Sri Lankan Buddhist revivalist movement in the 19th century. He was the founder of Vidyodaya Pirivena. A veteran author and a fiery orator, he was a major figure in the Panadurawadaya, a religious debate held between Christian missionaries and Buddhist monks in 1873 at Panadura, Sri Lanka. (<a href='https://en.wikipedia.org/wiki/Hikkaduwe_Sri_Sumangala_Thera'>Wikipedia</a>)"
       },
       "media": {
         "url": "data/images/Most_Venerable_Hikkaduwe_Sri_Sumangala_Thera_(1827-1911).jpg",
@@ -602,7 +602,7 @@
       },
       "text": {
         "headline": "Founding of the Society for the Propagation of Buddhism",
-        "text": "The Society for the Propagation of Buddhism (සර්වඥ ශාසනාභිවෘද්ධි දායක ධර්ම සමාගම, Religious Society for Giving Increase to Teaching of the Omniscient One) was created by the supporters of Migeṭṭiwatte Guṇānanda to produce printed material to both promote Buddhism as well as push back against it's Christian detractors. It's name is a play on “Society for the Propagation of Gospel,” which had been active in Ceylon since 1840."
+        "text": "The Society for the Propagation of Buddhism (සර්වඥ ශාසනාභිවෘද්ධි දායක ධර්ම සමාගම, <i>“Religious Society for Giving Increase to Teaching of the Omniscient One”</i>) was created by the supporters of Migeṭṭiwatte Guṇānanda to produce printed material to both promote Buddhism as well as push back against it's Christian detractors. It's name is a play on “Society for the Propagation of Gospel,” which had been active in Ceylon since 1840."
       }
     },
     {
@@ -668,6 +668,24 @@
       },
       "background": {
         "color": "#358484"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1873
+      },
+      "text": {
+        "headline": "Founding of Vidyodaya Pirivena",
+        "text": "<p>The Vidyodaya Pirivena was the first modern piriven (a monastic college, similar to a seminary). It was founded in 1873 by Ven. Hikkaduwe Sri Sumangala Thera. It provided not only Buddhist education for monastics, but also various Eastern sciences such as astrology and medicine.</p><p>Until then, monastic education was done using the teacher-family model and could not easily compete with Christian missionary schools. Later, in 1959, the pirivena was granted the university status by the Government of Sri Lanka.</p><details>\n  <summary>more…</summary>\n  It is notable that from its early days the school benefited from some governmental financial support. This was possible in part because it taught some subjects that were not strictly religious, but were a support to monastic education. The study of ancient languages was especially appealing to a government slowly being influenced by an interest in “Orientalist” scholarship.\n</details>"
+      },
+      "media": {
+        "url": "data/images/1280px-Vidyodaya_pirivena_in_1885-cr.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Vidyodaya_pirivena_in_1885.jpg\">Kalegana</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+        "caption": "Ven. Hikkaduwe Sri Sumangala Thera at Vidyodaya pirivena in 1885",
+        "thumbnail": "data/images/1280px-Vidyodaya_pirivena_in_1885-cr.jpg"
+      },
+      "background": {
+        "color": "#004c7f"
       }
     },
     {
@@ -750,6 +768,21 @@
       "text": {
         "headline": "Publication of <i>Bauddha Praśnaya</i>",
         "text": "Ven. Guṇānanda publishes his own chatechism in Sihala language, <i>Bauddha Praśnaya</i> (Buddhist Questions) as a counter to Olcot's highly inaccurate <i>Buddhist Chatecism</i>. "
+      }
+    },
+    {
+      "start_date": {
+        "year": 1891
+      },
+      "text": {
+        "headline": "Founding of Maha Bodhi Society",
+        "text": "The Mahabodhi Society at Colombo was founded in 1891 but its offices were moved to Calcutta the following year. One of its primary aims was the restoration of the Mahabodhi Temple at Bodh Gaya, the chief of the four ancient holy sites to Buddhist control. To accomplish this Dharmapala initiated a lawsuit against the Brahmin priests who had held control of the site for centuries. After a protracted struggle this was successful with the partial restoration of the site to the management of the Maha Bodhi Society in 1949."
+      },
+      "media": {
+        "url": "data/images/Inside_View_of_Mahabodhi_Society_College_Street-cr.jpg",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Inside_View_of_Mahabodhi_Society_College_Street.jpg\">Discovery Kolkata</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+        "caption": "Inside view of the Maha Bodhi Society in India",
+        "thumbnail": "data/images/Inside_View_of_Mahabodhi_Society_College_Street-cr.jpg"
       }
     },
     {
@@ -842,22 +875,9 @@
       },
       "media": {
         "url": "data/images/SL_Independence.jpg",
-        "credit": "File:SL_Independence.jpg\">Government of Ceylon and UK.Cossde at en.wikipedia</a>, Public domain, via Wikimedia Commons</p>",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:SL_Independence.jpg\">Government of Ceylon and UK.Cossde at en.wikipedia</a>, Public domain, via Wikimedia Commons",
         "caption": "The formal ceremony marking the start of self rule, with the opening of the first parliament at Independence Square by the HRH Prince Henry in the presence of Rt Hon D.S. Senanayake as first Prime Minister of Ceylon.",
         "thumbnail": "data/images/SL_Independence.jpg"
-      }
-    },
-    {
-      "start_date": {
-        "year": 1978
-      },
-      "text": {
-        "headline": "Clause 9 of Chapter II",
-        "text": "<p>Clause 9 of Chapter II in the Constitution in Sri Lanka, established in 1978, states:</p><blockquote><p>The Republic of Sri Lanka shall give to Buddhism the foremost place and accordingly it shall be the duty of the State to protect and foster the Buddha Sasana, while assuring to all religions the rights granted by Article 10 and 14</p></blockquote><p></p>"
-      },
-      "media": {
-        "url": "data/images/960px-Page_1_1978_constitution_SL.jpg",
-        "thumbnail": "data/images/960px-Page_1_1978_constitution_SL.jpg"
       }
     },
     {
@@ -872,6 +892,19 @@
       "media": {
         "url": "data/images/publicShrines.jpg",
         "thumbnail": "data/images/publicShrines.jpg"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1978
+      },
+      "text": {
+        "headline": "Clause 9 of Chapter II",
+        "text": "<p>Clause 9 of Chapter II in the Constitution in Sri Lanka, established in 1978, states:</p><blockquote><p>The Republic of Sri Lanka shall give to Buddhism the foremost place and accordingly it shall be the duty of the State to protect and foster the Buddha Sasana, while assuring to all religions the rights granted by Article 10 and 14</p></blockquote><p></p>"
+      },
+      "media": {
+        "url": "data/images/960px-Page_1_1978_constitution_SL.jpg",
+        "thumbnail": "data/images/960px-Page_1_1978_constitution_SL.jpg"
       }
     },
     {
