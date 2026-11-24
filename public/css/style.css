@@ -89,3 +89,37 @@ header p.subtitle {
 tl-timegroup-alternate>.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
   color: red !important
 }
+
+summary {
+  padding-bottom: 10px;
+  text-decoration: underline dotted;
+}
+
+details>summary {
+  list-style: none;
+}
+
+details>summary::-webkit-details-marker {
+  display: none;
+}
+
+.show-more summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.show-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.show-more .show-less-label {
+  display: none;
+}
+
+.show-more[open] .show-more-label {
+  display: none;
+}
+
+.show-more[open] .show-less-label {
+  display: inline;
+}

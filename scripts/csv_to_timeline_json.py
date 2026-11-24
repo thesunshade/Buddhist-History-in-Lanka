@@ -215,6 +215,14 @@ def resolve_media_url(value):
         return LOCAL_IMAGE_PREFIX + v
     return v
 
+DETAILS_RE = re.compile(r"<details>(.*?)</details>", re.DOTALL | re.IGNORECASE)
+
+def expand_details(text):
+    """Convert plain <details>...</details> into the 'show more' markup."""
+    return DETAILS_RE.sub(
+        lambda m: '<details class="show-more"><summary><span class="show-more-label">more…</span><span class="show-less-label">show less</span></summary><div class="show-more-content">' + m.group(1).strip() + '</div></details>',
+        text,
+    )
 
 def build_slide(row, color_vars=None):
     """Convert one CSV row into a TL slide/event dict."""
@@ -234,7 +242,7 @@ def build_slide(row, color_vars=None):
     if row.get("Headline"):
         text_obj["headline"] = row["Headline"]
     if row.get("Text"):
-        text_obj["text"] = row["Text"]
+        text_obj["text"] = expand_details(row["Text"])
     if text_obj:
         slide["text"] = text_obj
 
