@@ -5,22 +5,20 @@
 
 /* ---- Design tokens ---- */
 :root {
-  --ts-accent: #c9a84c;
-  /* gold, echoes the site palette */
+  --ts-accent: #555;
   --ts-bg: #ffffff;
-  /* dark navy */
-  --ts-bg-panel: #112233;
-  --ts-text: #f0e6d3;
-  --ts-text-muted: #8fa8c0;
-  --ts-hover: #1a3a5c;
-  --ts-active: #1e4a73;
-  --ts-border: rgba(201, 168, 76, 0.35);
-  --ts-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+  --ts-bg-panel: #ffffff;
+  --ts-text: #222;
+  --ts-text-muted: #777;
+  --ts-hover: #f0f0f0;
+  --ts-active: #e0e0e0;
+  --ts-border: #ccc;
+  --ts-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
   --ts-btn-size: 44px;
   --ts-btn-inset: 16px;
-  --ts-radius: 10px;
+  --ts-radius: 6px;
   --ts-panel-width: min(480px, calc(100vw - 32px));
-  --ts-transition: 220ms cubic-bezier(0.4, 0, 0.2, 1);
+  --ts-transition: 150ms ease;
 }
 
 /* ---- Search trigger button (top-right, always visible) ---- */
