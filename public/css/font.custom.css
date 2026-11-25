@@ -28,8 +28,8 @@ https://fonts.google.com/specimen/PT+Serif
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('fonts/firasansextracondensed-regular-webfont.woff2') format('woff2'),
-    url('fonts/firasansextracondensed-regular-webfont.woff') format('woff');
+  src: url('fonts/FiraSansExtraCondensed-Regular.woff2') format('woff2'),
+    url('fonts/FiraSansExtraCondensed-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -37,8 +37,8 @@ https://fonts.google.com/specimen/PT+Serif
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('fonts/firasansextracondensed-medium-webfont.woff2') format('woff2'),
-    url('fonts/firasansextracondensed-medium-webfont.woff') format('woff');
+  src: url('fonts/FiraSansExtraCondensed-Medium.woff2') format('woff2'),
+    url('fonts/FiraSansExtraCondensed-Medium.woff') format('woff');
 }
 
 @font-face {
@@ -46,7 +46,8 @@ https://fonts.google.com/specimen/PT+Serif
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(fonts/SourceSerif4Variable-Italic.otf.woff) format('woff');
+  src: url('fonts/FiraSansExtraCondensed-Italic.woff2') format('woff2'),
+    url(fonts/FiraSansExtraCondensed-Italic.woff) format('woff');
 }
 
 @font-face {
