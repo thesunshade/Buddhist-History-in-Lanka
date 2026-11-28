@@ -40,7 +40,7 @@
   function slugify(str) {
     if (!str) return "";
     // Strip HTML first (matches TL3's O() call before j())
-    str = stripHtml(str);
+    str = str.trim();
     str = str.toLowerCase();
     for (var i = 0; i < DIACRITIC_FROM.length; i++) {
       str = str.split(DIACRITIC_FROM[i]).join(DIACRITIC_TO[i]);
