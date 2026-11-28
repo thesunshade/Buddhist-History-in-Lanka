@@ -341,7 +341,7 @@
       },
       "text": {
         "headline": "Portuguese Occupation\n",
-        "text": "<p><strong>Portuguese Ceylon</strong> is the name given to the territory of Ceylon controlled by the Portuguese Empire between 1597 and 1658. (<a href=\"https://en.wikipedia.org/wiki/Portuguese_Ceylon\">Wikipedia</a>) Unlike the later Dutch and British occupation, the Portugues used overt violence to try to crush local religious practices by destroying places of worship.</p><p>Map Key:<br><span style=\"background-color:#328585\">&nbsp;&nbsp;&nbsp;</span> Portuguese Ceylon (1597-1619)<br><span style=\"background-color:#17ccc7\">&nbsp;&nbsp;&nbsp;</span> Jaffna Kingdom and area annexed Kingdom of Sitawaka in 1594-1619</p>"
+        "text": "<p><strong>Portuguese Ceylon</strong> is the name given to the territory controlled by the Portuguese Empire between 1597 and 1658. (<a href=\"https://en.wikipedia.org/wiki/Portuguese_Ceylon\">Wikipedia</a>) Unlike the later Dutch and British occupation, the Portugues used overt violence to try to crush local religious practices by destroying places of worship.</p><p>Map Key:<br><span style=\"background-color:#328585\">&nbsp;&nbsp;&nbsp;</span> Portuguese Ceylon (1597-1619)<br><span style=\"background-color:#17ccc7\">&nbsp;&nbsp;&nbsp;</span> Jaffna Kingdom and area annexed Kingdom of Sitawaka in 1594-1619</p>"
       },
       "media": {
         "url": "data/images/960px-Portuguese_Ceylon.svg.png",
@@ -530,7 +530,7 @@
         "day": 21
       },
       "text": {
-        "headline": "Ven. Migeṭṭuwatte Guṇānanda Thera ",
+        "headline": "Ven. Migeṭṭuwatte Guṇānanda Thera",
         "text": "Ven. Migeṭṭuwatte Guṇānanda Thera, or Mohoṭṭiwatte Gunaṇānda Thera, is known for leading the Buddhist side in debates between Buddhists and Christians in Baddegama, Udanwita, Waragoda, Liyanagemulla, Gampola, and Panadura, where the most famous of the debates took place. As a result of the debates, Buddhism in Sri Lanka saw a revival. (<a href='https://en.wikipedia.org/wiki/Migettuwatte_Gunananda_Thera'>Wikipedia</a>)"
       },
       "media": {
@@ -676,7 +676,7 @@
       },
       "text": {
         "headline": "Founding of Vidyodaya Pirivena",
-        "text": "<p>The Vidyodaya Pirivena was the first modern piriven (a monastic college, similar to a seminary). It was founded in 1873 by Ven. Hikkaduwe Sri Sumangala Thera. It provided not only Buddhist education for monastics, but also various Eastern sciences such as astrology and medicine.</p><p>Until then, monastic education was done using the teacher-family model and could not easily compete with Christian missionary schools. Later, in 1959, the pirivena was granted the university status by the Government of Sri Lanka.</p><details class=\"show-more\"><summary><span class=\"show-more-label\">more…</span><span class=\"show-less-label\">show less</span></summary><div class=\"show-more-content\">It is notable that from its early days the school benefited from some governmental financial support. This was possible in part because it taught some subjects that were not strictly religious, but were a support to monastic education. The study of ancient languages was especially appealing to a government slowly being influenced by an interest in “Orientalist”<p>See: Anne M. Blackburn, <i>Locations of Buddhism: Colonialism and Modernity in Sri Lanka</i>. Chicago: University of Chicago Press, 2010.</p></div></details>"
+        "text": "<p>The Vidyodaya Pirivena was the first modern piriven (a monastic college, similar to a seminary). It was founded in 1873 by Ven. Hikkaduwe Sri Sumangala Thera. It provided not only Buddhist education for monastics, but also various Eastern sciences such as astrology and medicine.</p><p>Until then, monastic education was done using the teacher-family model and could not easily compete with Christian missionary schools. Later, in 1959, the pirivena was granted the university status by the Government of Sri Lanka.</p><details class=\"show-more\"><summary><span class=\"show-more-label\">more…</span><span class=\"show-less-label\">show less</span></summary><div class=\"show-more-content\"><p>The inspiration for Vidyodaya Pirivena was the medieval Vijayaba Pirivena which was destroyed by the Portugues.</p>It is notable that from its early days the school benefited from some governmental financial support. This was possible in part because it taught some subjects that were not strictly religious, but were a support to monastic education. The study of ancient languages was especially appealing to a government slowly being influenced by an interest in “Orientalist”<p>See: Anne M. Blackburn, <i>Locations of Buddhism: Colonialism and Modernity in Sri Lanka</i>. Chicago: University of Chicago Press, 2010.</p></div></details>"
       },
       "media": {
         "url": "data/images/1280px-Vidyodaya_pirivena_in_1885-cr.jpg",
@@ -726,6 +726,20 @@
     },
     {
       "start_date": {
+        "year": 1881
+      },
+      "text": {
+        "headline": "Printing of Olcott’s <i>Buddhist Catechism</i>"
+      },
+      "media": {
+        "url": "data/images/buddhistcatechis0000olco_j7z2-pages-color.jpg",
+        "credit": "<a href='https://archive.org/details/buddhistcatechis0000olco_j7z2/page/10/mode/2up'>Archive.org</a>",
+        "caption": "First page of second edition, 1885",
+        "thumbnail": "data/images/buddhistcatechis0000olco_j7z2-pages-color.jpg"
+      }
+    },
+    {
+      "start_date": {
         "year": 1883,
         "month": 3
       },
@@ -758,7 +772,7 @@
       },
       "text": {
         "headline": "Publication of <i>Buddha Ædahilla</i>",
-        "text": "Ven. Guṇānanda publishes the first printed liturgical book, <i>Buddha Ædahilla<i>, that gave lay people the guidance for performing Buddha Puja on their own. The verses were mostly taken from traditional services performed by monastics with the special addition of verses honoring parents."
+        "text": "Ven. Guṇānanda publishes the first printed liturgical book, <i>Buddha Ædahilla</i>, that gave lay people the guidance for performing Buddha Puja on their own. The verses were mostly taken from traditional services performed by monastics with the special addition of verses honoring parents."
       }
     },
     {
@@ -839,6 +853,20 @@
       },
       "background": {
         "color": "#5f5f5f"
+      }
+    },
+    {
+      "start_date": {
+        "year": 1903
+      },
+      "text": {
+        "headline": "Anuradhapura Riots of 1903",
+        "text": "Tensions had been growing between Buddhists, who were present in Anuradhapura for religious pilgrimage, and the British Colonial government, who were undertaking archaeological research as well as purported looting of sacred sites. Things came to a head in the 1903 pilgrimage season after a church and a meat shop had been setup within the ancient premises of Anuradhapura. When a local official injured a pilgrim, the crowd undertook to remove the structures from the site. Maha Bodhi Society organizer Brahmachari Walisingha Harischandra tried to calm the crowds, but was subsequently arrested. He was later cleared of all charges."
+      },
+      "media": {
+        "url": "data/images/Brahmachari_Walisingha_Harischandra_After_taken_Into_Ceylon_Police_Custody_In_1903-edit.jpg",
+        "caption": "Photograph of Walisingha Harischandra after taken intoPolice Custody In 1903. From <i>Pura Vidyawa</i>, 1912, By Brahmachari Walisingha Harischandra",
+        "thumbnail": "data/images/Brahmachari_Walisingha_Harischandra_After_taken_Into_Ceylon_Police_Custody_In_1903-edit.jpg"
       }
     },
     {
